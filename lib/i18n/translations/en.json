@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "features": "Features",
+    "blog": "Blog",
+    "download": "Download Free",
+    "home": "Home"
+  },
+  "hero": {
+    "badge": "Free for iOS & Android",
+    "title1": "Your Cycle,",
+    "title2": "Your Rhythm",
+    "subtitle": "Track your period with AI-powered predictions, log your mood and symptoms, and get personalized cycle insights — all in one beautiful app.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "rating": "4.9 rating on App Store"
+  },
+  "features": {
+    "sectionBadge": "Features",
+    "sectionTitle1": "Everything You Need to",
+    "sectionTitle2": "Know Your Body",
+    "sectionSubtitle": "Smart tracking tools designed to help you understand your cycle, anticipate changes, and feel in control.",
+    "cycle": {
+      "title": "Smart Cycle Predictions",
+      "desc": "AI-powered predictions that learn your unique pattern over time. Know exactly when your next period, fertile window, and ovulation day are expected — with increasing accuracy each cycle.",
+      "checks": ["Learns from your personal data", "Fertility window estimates", "Beautiful calendar view"]
+    },
+    "mood": {
+      "title": "Mood & Symptom Logging",
+      "desc": "Track how you feel every day with our intuitive logging system. Record moods, physical symptoms, energy levels, and more — then discover patterns you never noticed before.",
+      "checks": ["Quick daily check-ins", "20+ symptoms to track", "Pattern recognition over time"]
+    },
+    "insights": {
+      "title": "Personalized Insights",
+      "desc": "Get AI-backed insights tailored to your unique cycle. Understand how your hormones affect your energy, mood, skin, digestion, and sleep — and get actionable advice for each phase.",
+      "checks": ["Phase-specific recommendations", "Nutrition and exercise tips", "Cycle health reports"]
+    },
+    "setup": {
+      "title": "Easy Personalized Setup",
+      "desc": "Get started in under a minute. Our smart onboarding asks just a few questions to calibrate predictions to your body from day one. No complicated setup required.",
+      "checks": ["60-second setup", "Immediate predictions", "Import from other apps"]
+    }
+  },
+  "why": {
+    "title": "Why Your Rhythm?",
+    "subtitle": "Built with care, backed by science, and designed to put you first.",
+    "privacy": {
+      "emoji": "🔒",
+      "title": "Privacy First",
+      "desc": "Your data stays on your device. We never sell or share your personal health information."
+    },
+    "design": {
+      "emoji": "🎨",
+      "title": "Beautiful Design",
+      "desc": "A gorgeous, intuitive interface that makes tracking your cycle feel effortless and enjoyable."
+    },
+    "science": {
+      "emoji": "🔬",
+      "title": "Science Backed",
+      "desc": "Predictions and insights powered by peer-reviewed research and validated algorithms."
+    },
+    "free": {
+      "emoji": "💝",
+      "title": "Free to Use",
+      "desc": "All core features are completely free. Premium adds advanced insights for those who want more."
+    }
+  },
+  "reviews": {
+    "title": "Loved by Women Worldwide",
+    "subtitle": "Join thousands who trust Your Rhythm for cycle tracking.",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "text": "Finally a period tracker that actually learns my cycle. The predictions got accurate within two months, and the mood insights are incredible."
+      },
+      {
+        "name": "Jessica L.",
+        "text": "I love how simple and beautiful this app is. The daily check-ins take 10 seconds, and the AI insights genuinely helped me understand my PMS patterns."
+      },
+      {
+        "name": "Maria K.",
+        "text": "After trying 5 other trackers, Your Rhythm is the one that stuck. The fertility predictions helped me conceive, and I love that my data stays private."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Tracking Your Cycle Today",
+    "subtitle": "Join thousands of women who understand their bodies better with Your Rhythm. Free to download, no account required.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "footer": {
+    "desc": "Smart period tracker with AI-powered cycle predictions, mood logging, and personalized insights.",
+    "product": "Product",
+    "features": "Features",
+    "download": "Download",
+    "resources": "Resources",
+    "blog": "Blog",
+    "helpCenter": "Help Center",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2026 Your Rhythm. All rights reserved.",
+    "madeWith": "Created with Perplexity Computer"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Tips, guides, and insights on cycle health, wellness, and fertility.",
+    "metaTitle": "Blog — Cycle Health, Wellness & Fertility Tips",
+    "metaDesc": "Tips, guides, and insights on menstrual health, cycle tracking, fertility, and wellness.",
+    "backToHome": "Back to Home",
+    "readMore": "Read",
+    "noArticles": "No articles yet. Check back soon.",
+    "relatedArticles": "Related Articles",
+    "backToBlog": "Back to Blog",
+    "readArticle": "Read article",
+    "fromBlog": "From the Blog",
+    "fromBlogSubtitle": "Insights on cycle health, wellness, and fertility.",
+    "viewAll": "View all",
+    "viewAllArticles": "View all articles",
+    "tryCta": "Try Your Rhythm Free",
+    "ctaDesc": "Track your cycle, log your mood, and get personalized insights. Available on iOS and Android."
+  }
+}

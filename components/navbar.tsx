@@ -1,6 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { LanguageSelector } from "@/components/language-selector";
+import type { Locale } from "@/lib/i18n/config";
+import type { Translations } from "@/lib/i18n";
 
 function HeartLogo({ className }: { className?: string }) {
   return (
@@ -20,11 +23,16 @@ function HeartLogo({ className }: { className?: string }) {
   );
 }
 
-export function Navbar() {
+interface NavbarProps {
+  locale: Locale;
+  t: Translations["nav"];
+}
+
+export function Navbar({ locale, t }: NavbarProps) {
   return (
     <nav className="sticky top-0 z-50 bg-[hsl(20,40%,98%)]/80 backdrop-blur-lg border-b border-border/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5">
+        <Link href={`/${locale}`} className="flex items-center gap-2.5">
           <HeartLogo className="w-9 h-9" />
           <span className="font-bold text-lg tracking-tight">Your Rhythm</span>
         </Link>
@@ -35,21 +43,22 @@ export function Navbar() {
             }
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
-            Features
+            {t.features}
           </button>
           <Link
-            href="/blog"
+            href={`/${locale}/blog`}
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
-            Blog
+            {t.blog}
           </Link>
         </div>
         <div className="flex items-center gap-3">
+          <LanguageSelector currentLocale={locale} />
           <a
             href="#"
             className="inline-flex items-center justify-center rounded-full h-9 px-4 text-sm font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
           >
-            Download Free
+            {t.download}
           </a>
         </div>
       </div>
@@ -57,36 +66,43 @@ export function Navbar() {
   );
 }
 
-export function BlogNav({ activePage }: { activePage?: "home" | "blog" }) {
+interface BlogNavProps {
+  locale: Locale;
+  t: Translations["nav"];
+  activePage?: "home" | "blog";
+}
+
+export function BlogNav({ locale, t, activePage }: BlogNavProps) {
   return (
     <nav className="sticky top-0 z-50 bg-[hsl(20,40%,98%)]/80 backdrop-blur-lg border-b border-border/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5">
+        <Link href={`/${locale}`} className="flex items-center gap-2.5">
           <HeartLogo className="w-9 h-9" />
           <span className="font-bold text-lg tracking-tight">Your Rhythm</span>
         </Link>
         <div className="flex items-center gap-6">
           <Link
-            href="/"
+            href={`/${locale}`}
             className={`text-sm font-medium transition-colors ${
               activePage === "home"
                 ? "text-foreground"
                 : "text-muted-foreground hover:text-foreground"
             }`}
           >
-            Home
+            {t.home}
           </Link>
           <Link
-            href="/blog"
+            href={`/${locale}/blog`}
             className={`text-sm font-medium transition-colors ${
               activePage === "blog"
                 ? "text-foreground"
                 : "text-muted-foreground hover:text-foreground"
             }`}
           >
-            Blog
+            {t.blog}
           </Link>
         </div>
+        <LanguageSelector currentLocale={locale} />
       </div>
     </nav>
   );

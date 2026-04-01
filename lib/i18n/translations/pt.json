@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "features": "Recursos",
+    "blog": "Blog",
+    "download": "Baixar grátis",
+    "home": "Início"
+  },
+  "hero": {
+    "badge": "Gratuito para iOS e Android",
+    "title1": "Seu ciclo,",
+    "title2": "seu ritmo",
+    "subtitle": "Acompanhe sua menstruação com previsões baseadas em IA, registre seu humor e sintomas, e obtenha insights personalizados sobre seu ciclo — tudo em um lindo aplicativo.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "rating": "4,9 estrelas na App Store"
+  },
+  "features": {
+    "sectionBadge": "Recursos",
+    "sectionTitle1": "Tudo que você precisa para",
+    "sectionTitle2": "conhecer seu corpo",
+    "sectionSubtitle": "Ferramentas inteligentes de rastreamento projetadas para ajudá-la a entender seu ciclo, antecipar mudanças e se sentir no controle.",
+    "cycle": {
+      "title": "Previsões inteligentes do ciclo",
+      "desc": "Previsões com IA que aprendem seu padrão único ao longo do tempo. Saiba exatamente quando esperar sua próxima menstruação, janela fértil e dia de ovulação — com precisão crescente a cada ciclo.",
+      "checks": ["Aprende com seus dados pessoais", "Estimativas da janela fértil", "Linda visualização em calendário"]
+    },
+    "mood": {
+      "title": "Registro de humor e sintomas",
+      "desc": "Acompanhe como você se sente todos os dias com nosso sistema de registro intuitivo. Anote humores, sintomas físicos, níveis de energia e mais — depois descubra padrões que você nunca tinha notado.",
+      "checks": ["Check-ins diários rápidos", "Mais de 20 sintomas para rastrear", "Reconhecimento de padrões ao longo do tempo"]
+    },
+    "insights": {
+      "title": "Insights personalizados",
+      "desc": "Obtenha insights apoiados por IA adaptados ao seu ciclo único. Entenda como seus hormônios afetam sua energia, humor, pele, digestão e sono — e receba conselhos práticos para cada fase.",
+      "checks": ["Recomendações específicas por fase", "Dicas de nutrição e exercício", "Relatórios de saúde do ciclo"]
+    },
+    "setup": {
+      "title": "Configuração fácil e personalizada",
+      "desc": "Comece em menos de um minuto. Nosso onboarding inteligente faz apenas algumas perguntas para calibrar as previsões ao seu corpo desde o primeiro dia. Sem configuração complicada.",
+      "checks": ["Configuração em 60 segundos", "Previsões imediatas", "Importar de outros apps"]
+    }
+  },
+  "why": {
+    "title": "Por que Your Rhythm?",
+    "subtitle": "Criado com cuidado, fundamentado na ciência e projetado para colocá-la em primeiro lugar.",
+    "privacy": {
+      "emoji": "🔒",
+      "title": "Privacidade em primeiro lugar",
+      "desc": "Seus dados ficam no seu dispositivo. Nunca vendemos ou compartilhamos suas informações pessoais de saúde."
+    },
+    "design": {
+      "emoji": "🎨",
+      "title": "Design lindo",
+      "desc": "Uma interface linda e intuitiva que torna o acompanhamento do seu ciclo fácil e agradável."
+    },
+    "science": {
+      "emoji": "🔬",
+      "title": "Baseado em ciência",
+      "desc": "Previsões e insights baseados em pesquisas revisadas por pares e algoritmos validados."
+    },
+    "free": {
+      "emoji": "💝",
+      "title": "Gratuito",
+      "desc": "Todos os recursos essenciais são completamente gratuitos. O Premium adiciona insights avançados para quem quer mais."
+    }
+  },
+  "reviews": {
+    "title": "Amado por mulheres no mundo todo",
+    "subtitle": "Junte-se a milhares que confiam no Your Rhythm para acompanhar o ciclo.",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "text": "Finalmente um rastreador de menstruação que realmente aprende meu ciclo. As previsões ficaram precisas em dois meses e os insights de humor são incríveis."
+      },
+      {
+        "name": "Jessica L.",
+        "text": "Adoro o quanto este app é simples e lindo. Os check-ins diários levam 10 segundos e os insights de IA me ajudaram a entender meus padrões de TPM."
+      },
+      {
+        "name": "Maria K.",
+        "text": "Depois de experimentar 5 outros rastreadores, Your Rhythm é o que ficou. As previsões de fertilidade me ajudaram a engravidar e adoro que meus dados fiquem privados."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Comece a rastrear seu ciclo hoje",
+    "subtitle": "Junte-se a milhares de mulheres que entendem melhor seus corpos com o Your Rhythm. Gratuito para baixar, sem conta necessária.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "footer": {
+    "desc": "Rastreador de menstruação inteligente com previsões de ciclo por IA, registro de humor e insights personalizados.",
+    "product": "Produto",
+    "features": "Recursos",
+    "download": "Baixar",
+    "resources": "Recursos",
+    "blog": "Blog",
+    "helpCenter": "Central de ajuda",
+    "contact": "Contato",
+    "legal": "Legal",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de serviço",
+    "copyright": "© 2026 Your Rhythm. Todos os direitos reservados.",
+    "madeWith": "Criado com Perplexity Computer"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Dicas, guias e insights sobre saúde do ciclo, bem-estar e fertilidade.",
+    "metaTitle": "Blog — Dicas de saúde do ciclo, bem-estar e fertilidade",
+    "metaDesc": "Dicas, guias e insights sobre saúde menstrual, rastreamento do ciclo, fertilidade e bem-estar.",
+    "backToHome": "Voltar ao início",
+    "readMore": "Ler",
+    "noArticles": "Nenhum artigo ainda. Volte em breve.",
+    "relatedArticles": "Artigos relacionados",
+    "backToBlog": "Voltar ao blog",
+    "readArticle": "Ler artigo",
+    "fromBlog": "Do blog",
+    "fromBlogSubtitle": "Insights sobre saúde do ciclo, bem-estar e fertilidade.",
+    "viewAll": "Ver tudo",
+    "viewAllArticles": "Ver todos os artigos",
+    "tryCta": "Experimente o Your Rhythm gratuitamente",
+    "ctaDesc": "Rastreie seu ciclo, registre seu humor e obtenha insights personalizados. Disponível para iOS e Android."
+  }
+}

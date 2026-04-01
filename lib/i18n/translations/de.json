@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "features": "Funktionen",
+    "blog": "Blog",
+    "download": "Kostenlos herunterladen",
+    "home": "Startseite"
+  },
+  "hero": {
+    "badge": "Kostenlos für iOS & Android",
+    "title1": "Dein Zyklus,",
+    "title2": "dein Rhythmus",
+    "subtitle": "Verfolge deine Periode mit KI-gestützten Vorhersagen, notiere deine Stimmung und Symptome und erhalte personalisierte Zyklus-Einblicke — alles in einer wunderschönen App.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "rating": "4,9 Sterne im App Store"
+  },
+  "features": {
+    "sectionBadge": "Funktionen",
+    "sectionTitle1": "Alles, was du brauchst, um",
+    "sectionTitle2": "deinen Körper zu verstehen",
+    "sectionSubtitle": "Intelligente Tracking-Tools, die dir helfen, deinen Zyklus zu verstehen, Veränderungen vorauszusehen und die Kontrolle zu behalten.",
+    "cycle": {
+      "title": "Intelligente Zyklusvorhersagen",
+      "desc": "KI-gestützte Vorhersagen, die mit der Zeit dein einzigartiges Muster erlernen. Wisse genau, wann deine nächste Periode, dein fruchtbares Fenster und dein Eisprungstag zu erwarten sind — mit zunehmender Genauigkeit bei jedem Zyklus.",
+      "checks": ["Lernt aus deinen persönlichen Daten", "Schätzungen des fruchtbaren Fensters", "Wunderschöne Kalenderansicht"]
+    },
+    "mood": {
+      "title": "Stimmungs- & Symptomprotokollierung",
+      "desc": "Verfolge täglich, wie du dich fühlst, mit unserem intuitiven Protokollierungssystem. Notiere Stimmungen, körperliche Symptome, Energieniveaus und mehr — und entdecke Muster, die dir vorher nie aufgefallen sind.",
+      "checks": ["Schnelle tägliche Check-ins", "Über 20 Symptome verfolgbar", "Mustererkennung über die Zeit"]
+    },
+    "insights": {
+      "title": "Personalisierte Einblicke",
+      "desc": "Erhalte KI-gestützte Einblicke, die auf deinen einzigartigen Zyklus zugeschnitten sind. Verstehe, wie deine Hormone deine Energie, Stimmung, Haut, Verdauung und deinen Schlaf beeinflussen — und erhalte umsetzbare Ratschläge für jede Phase.",
+      "checks": ["Phasenspezifische Empfehlungen", "Ernährungs- und Sporttipps", "Zyklusgesundheitsberichte"]
+    },
+    "setup": {
+      "title": "Einfache, personalisierte Einrichtung",
+      "desc": "Starte in weniger als einer Minute. Unser smartes Onboarding stellt nur wenige Fragen, um die Vorhersagen vom ersten Tag an auf deinen Körper abzustimmen. Keine komplizierte Einrichtung erforderlich.",
+      "checks": ["60-Sekunden-Einrichtung", "Sofortige Vorhersagen", "Import aus anderen Apps"]
+    }
+  },
+  "why": {
+    "title": "Warum Your Rhythm?",
+    "subtitle": "Mit Sorgfalt entwickelt, wissenschaftlich fundiert und darauf ausgelegt, dich an erste Stelle zu setzen.",
+    "privacy": {
+      "emoji": "🔒",
+      "title": "Datenschutz zuerst",
+      "desc": "Deine Daten bleiben auf deinem Gerät. Wir verkaufen oder teilen deine persönlichen Gesundheitsinformationen niemals."
+    },
+    "design": {
+      "emoji": "🎨",
+      "title": "Wunderschönes Design",
+      "desc": "Eine wunderschöne, intuitive Oberfläche, die das Verfolgen deines Zyklus mühelos und angenehm macht."
+    },
+    "science": {
+      "emoji": "🔬",
+      "title": "Wissenschaftlich fundiert",
+      "desc": "Vorhersagen und Einblicke, die auf peer-reviewed Forschung und validierten Algorithmen basieren."
+    },
+    "free": {
+      "emoji": "💝",
+      "title": "Kostenlos nutzbar",
+      "desc": "Alle Kernfunktionen sind vollständig kostenlos. Premium bietet erweiterte Einblicke für diejenigen, die mehr möchten."
+    }
+  },
+  "reviews": {
+    "title": "Geliebt von Frauen weltweit",
+    "subtitle": "Schließe dich Tausenden an, die Your Rhythm für das Zyklus-Tracking vertrauen.",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "text": "Endlich ein Periodentracker, der meinen Zyklus wirklich lernt. Die Vorhersagen wurden innerhalb von zwei Monaten präzise, und die Stimmungseinblicke sind unglaublich."
+      },
+      {
+        "name": "Jessica L.",
+        "text": "Ich liebe, wie einfach und schön diese App ist. Die täglichen Check-ins dauern 10 Sekunden, und die KI-Einblicke haben mir wirklich geholfen, meine PMS-Muster zu verstehen."
+      },
+      {
+        "name": "Maria K.",
+        "text": "Nach dem Testen von 5 anderen Trackern ist Your Rhythm die App, bei der ich geblieben bin. Die Fruchtbarkeitsvorhersagen haben mir geholfen, schwanger zu werden, und ich schätze, dass meine Daten privat bleiben."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Beginne heute, deinen Zyklus zu verfolgen",
+    "subtitle": "Schließe dich Tausenden von Frauen an, die ihren Körper mit Your Rhythm besser verstehen. Kostenlos herunterladen, kein Konto erforderlich.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "footer": {
+    "desc": "Intelligenter Periodentracker mit KI-gestützten Zyklusvorhersagen, Stimmungsprotokoll und personalisierten Einblicken.",
+    "product": "Produkt",
+    "features": "Funktionen",
+    "download": "Herunterladen",
+    "resources": "Ressourcen",
+    "blog": "Blog",
+    "helpCenter": "Hilfezentrum",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "copyright": "© 2026 Your Rhythm. Alle Rechte vorbehalten.",
+    "madeWith": "Erstellt mit Perplexity Computer"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Tipps, Ratgeber und Einblicke zu Zyklusgesundheit, Wohlbefinden und Fruchtbarkeit.",
+    "metaTitle": "Blog — Tipps zu Zyklusgesundheit, Wohlbefinden & Fruchtbarkeit",
+    "metaDesc": "Tipps, Ratgeber und Einblicke zu Menstruationsgesundheit, Zyklus-Tracking, Fruchtbarkeit und Wohlbefinden.",
+    "backToHome": "Zurück zur Startseite",
+    "readMore": "Lesen",
+    "noArticles": "Noch keine Artikel. Schau bald wieder vorbei.",
+    "relatedArticles": "Ähnliche Artikel",
+    "backToBlog": "Zurück zum Blog",
+    "readArticle": "Artikel lesen",
+    "fromBlog": "Aus dem Blog",
+    "fromBlogSubtitle": "Einblicke zu Zyklusgesundheit, Wohlbefinden und Fruchtbarkeit.",
+    "viewAll": "Alle ansehen",
+    "viewAllArticles": "Alle Artikel ansehen",
+    "tryCta": "Your Rhythm kostenlos ausprobieren",
+    "ctaDesc": "Verfolge deinen Zyklus, notiere deine Stimmung und erhalte personalisierte Einblicke. Verfügbar für iOS und Android."
+  }
+}

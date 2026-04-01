@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "features": "Funzionalità",
+    "blog": "Blog",
+    "download": "Scarica gratis",
+    "home": "Home"
+  },
+  "hero": {
+    "badge": "Gratis per iOS e Android",
+    "title1": "Il tuo ciclo,",
+    "title2": "il tuo ritmo",
+    "subtitle": "Tieni traccia del tuo ciclo con previsioni basate sull'IA, registra il tuo umore e i sintomi, e ottieni insight personalizzati — tutto in un'app meravigliosa.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "rating": "4,9 stelle sull'App Store"
+  },
+  "features": {
+    "sectionBadge": "Funzionalità",
+    "sectionTitle1": "Tutto ciò di cui hai bisogno per",
+    "sectionTitle2": "conoscere il tuo corpo",
+    "sectionSubtitle": "Strumenti di tracciamento intelligenti progettati per aiutarti a capire il tuo ciclo, anticipare i cambiamenti e sentirti in controllo.",
+    "cycle": {
+      "title": "Previsioni intelligenti del ciclo",
+      "desc": "Previsioni basate sull'IA che imparano il tuo schema unico nel tempo. Sappi esattamente quando aspettarti il prossimo ciclo, la finestra fertile e il giorno dell'ovulazione — con precisione crescente ad ogni ciclo.",
+      "checks": ["Apprende dai tuoi dati personali", "Stime della finestra fertile", "Bellissima vista calendario"]
+    },
+    "mood": {
+      "title": "Registrazione di umore e sintomi",
+      "desc": "Tieni traccia di come ti senti ogni giorno con il nostro sistema di registrazione intuitivo. Annota stati d'animo, sintomi fisici, livelli di energia e altro — poi scopri pattern che non avevi mai notato prima.",
+      "checks": ["Check-in quotidiani veloci", "Oltre 20 sintomi da tracciare", "Riconoscimento dei pattern nel tempo"]
+    },
+    "insights": {
+      "title": "Insight personalizzati",
+      "desc": "Ottieni insight supportati dall'IA adattati al tuo ciclo unico. Capisci come i tuoi ormoni influenzano energia, umore, pelle, digestione e sonno — e ricevi consigli pratici per ogni fase.",
+      "checks": ["Raccomandazioni specifiche per fase", "Consigli su nutrizione ed esercizio", "Report sulla salute del ciclo"]
+    },
+    "setup": {
+      "title": "Configurazione facile e personalizzata",
+      "desc": "Inizia in meno di un minuto. Il nostro onboarding intelligente pone solo poche domande per calibrare le previsioni al tuo corpo fin dal primo giorno. Nessuna configurazione complicata.",
+      "checks": ["Configurazione in 60 secondi", "Previsioni immediate", "Importa da altre app"]
+    }
+  },
+  "why": {
+    "title": "Perché Your Rhythm?",
+    "subtitle": "Creata con cura, supportata dalla scienza e progettata per mettere te al primo posto.",
+    "privacy": {
+      "emoji": "🔒",
+      "title": "Privacy prima di tutto",
+      "desc": "I tuoi dati rimangono sul tuo dispositivo. Non vendiamo né condividiamo mai le tue informazioni sanitarie personali."
+    },
+    "design": {
+      "emoji": "🎨",
+      "title": "Design bellissimo",
+      "desc": "Un'interfaccia meravigliosa e intuitiva che rende il monitoraggio del ciclo facile e piacevole."
+    },
+    "science": {
+      "emoji": "🔬",
+      "title": "Basata sulla scienza",
+      "desc": "Previsioni e insight basati su ricerche peer-reviewed e algoritmi validati."
+    },
+    "free": {
+      "emoji": "💝",
+      "title": "Gratis",
+      "desc": "Tutte le funzionalità principali sono completamente gratuite. Il Premium aggiunge insight avanzati per chi vuole di più."
+    }
+  },
+  "reviews": {
+    "title": "Amata dalle donne di tutto il mondo",
+    "subtitle": "Unisciti alle migliaia di donne che si fidano di Your Rhythm per il monitoraggio del ciclo.",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "text": "Finalmente un tracker mestruale che impara davvero il mio ciclo. Le previsioni sono diventate accurate in due mesi e gli insight sull'umore sono incredibili."
+      },
+      {
+        "name": "Jessica L.",
+        "text": "Adoro quanto sia semplice e bella questa app. I check-in quotidiani richiedono 10 secondi e gli insight IA mi hanno aiutata a capire i miei pattern di SPM."
+      },
+      {
+        "name": "Maria K.",
+        "text": "Dopo aver provato 5 altri tracker, Your Rhythm è quello che è rimasto. Le previsioni sulla fertilità mi hanno aiutata a concepire e adoro che i miei dati rimangano privati."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Inizia a monitorare il tuo ciclo oggi",
+    "subtitle": "Unisciti alle migliaia di donne che capiscono meglio il proprio corpo con Your Rhythm. Gratis da scaricare, nessun account richiesto.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "footer": {
+    "desc": "Tracker mestruale intelligente con previsioni del ciclo basate sull'IA, registro dell'umore e insight personalizzati.",
+    "product": "Prodotto",
+    "features": "Funzionalità",
+    "download": "Scarica",
+    "resources": "Risorse",
+    "blog": "Blog",
+    "helpCenter": "Centro assistenza",
+    "contact": "Contatto",
+    "legal": "Note legali",
+    "privacy": "Privacy policy",
+    "terms": "Termini di servizio",
+    "copyright": "© 2026 Your Rhythm. Tutti i diritti riservati.",
+    "madeWith": "Creato con Perplexity Computer"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Consigli, guide e insight sulla salute del ciclo, il benessere e la fertilità.",
+    "metaTitle": "Blog — Consigli su salute del ciclo, benessere e fertilità",
+    "metaDesc": "Consigli, guide e insight sulla salute mestruale, il monitoraggio del ciclo, la fertilità e il benessere.",
+    "backToHome": "Torna alla home",
+    "readMore": "Leggi",
+    "noArticles": "Nessun articolo ancora. Torna presto.",
+    "relatedArticles": "Articoli correlati",
+    "backToBlog": "Torna al blog",
+    "readArticle": "Leggi l'articolo",
+    "fromBlog": "Dal blog",
+    "fromBlogSubtitle": "Insight sulla salute del ciclo, il benessere e la fertilità.",
+    "viewAll": "Vedi tutto",
+    "viewAllArticles": "Vedi tutti gli articoli",
+    "tryCta": "Prova Your Rhythm gratis",
+    "ctaDesc": "Monitora il tuo ciclo, registra il tuo umore e ottieni insight personalizzati. Disponibile su iOS e Android."
+  }
+}

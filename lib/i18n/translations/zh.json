@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "features": "功能",
+    "blog": "博客",
+    "download": "免费下载",
+    "home": "首页"
+  },
+  "hero": {
+    "badge": "iOS 和 Android 免费使用",
+    "title1": "掌握你的周期，",
+    "title2": "找到你的节奏",
+    "subtitle": "借助 AI 预测追踪月经，记录情绪与症状，获取个性化周期洞察——一切尽在一款精美应用中。",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "rating": "App Store 4.9 星好评"
+  },
+  "features": {
+    "sectionBadge": "功能特色",
+    "sectionTitle1": "掌握一切所需，",
+    "sectionTitle2": "深入了解自己的身体",
+    "sectionSubtitle": "智能追踪工具帮助你理解周期、预见变化，让你始终掌控自我。",
+    "cycle": {
+      "title": "智能周期预测",
+      "desc": "AI 驱动的预测会随着时间推移不断学习你独特的规律。精准了解下次月经、排卵窗口和排卵日——预测精度随每个周期持续提升。",
+      "checks": ["从你的个人数据中学习", "生育窗口估算", "精美日历视图"]
+    },
+    "mood": {
+      "title": "情绪与症状记录",
+      "desc": "通过直观的记录系统，每天追踪你的感受。记录情绪、身体症状、能量水平等——发现以前从未注意到的规律。",
+      "checks": ["快速每日打卡", "追踪 20+ 种症状", "长期规律识别"]
+    },
+    "insights": {
+      "title": "个性化洞察",
+      "desc": "获取专为你独特周期量身定制的 AI 洞察。了解激素如何影响你的能量、情绪、皮肤、消化和睡眠——并获得每个阶段的实用建议。",
+      "checks": ["阶段专属建议", "营养与运动提示", "周期健康报告"]
+    },
+    "setup": {
+      "title": "轻松个性化设置",
+      "desc": "一分钟内即可上手。我们的智能引导只需几个问题，便能从第一天起为你的身体校准预测。无需繁琐设置。",
+      "checks": ["60 秒完成设置", "即时预测", "从其他应用导入"]
+    }
+  },
+  "why": {
+    "title": "为什么选择 Your Rhythm？",
+    "subtitle": "用心打造，科学支撑，以你为先。",
+    "privacy": {
+      "emoji": "🔒",
+      "title": "隐私优先",
+      "desc": "你的数据始终保存在你的设备上。我们从不出售或分享你的个人健康信息。"
+    },
+    "design": {
+      "emoji": "🎨",
+      "title": "精美设计",
+      "desc": "精致直观的界面让周期追踪变得轻松愉快，毫不费力。"
+    },
+    "science": {
+      "emoji": "🔬",
+      "title": "科学依据",
+      "desc": "基于同行评审研究和经验证算法的预测与洞察。"
+    },
+    "free": {
+      "emoji": "💝",
+      "title": "免费使用",
+      "desc": "所有核心功能完全免费。高级版为追求更多的用户提供深度洞察。"
+    }
+  },
+  "reviews": {
+    "title": "深受全球女性喜爱",
+    "subtitle": "加入数千名信任 Your Rhythm 进行周期追踪的用户。",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "text": "终于找到一款真正能学习我周期的追踪应用。两个月内预测就变得非常准确，情绪洞察也令人惊叹。"
+      },
+      {
+        "name": "Jessica L.",
+        "text": "我喜欢这款应用简洁美观。每日打卡只需 10 秒，AI 洞察真正帮助我理解了经前综合征的规律。"
+      },
+      {
+        "name": "Maria K.",
+        "text": "尝试了 5 款追踪器之后，Your Rhythm 是让我坚持下来的那一款。生育预测帮助我成功怀孕，数据隐私保护也让我放心。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "今天就开始追踪你的周期",
+    "subtitle": "加入数千名通过 Your Rhythm 更了解自己身体的女性。免费下载，无需注册账户。",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "footer": {
+    "desc": "智能月经追踪器，提供 AI 周期预测、情绪记录和个性化洞察。",
+    "product": "产品",
+    "features": "功能",
+    "download": "下载",
+    "resources": "资源",
+    "blog": "博客",
+    "helpCenter": "帮助中心",
+    "contact": "联系我们",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "© 2026 Your Rhythm。保留所有权利。",
+    "madeWith": "由 Perplexity Computer 创建"
+  },
+  "blog": {
+    "title": "博客",
+    "subtitle": "关于周期健康、健康生活和生育的技巧、指南与洞察。",
+    "metaTitle": "博客 — 周期健康、健康与生育技巧",
+    "metaDesc": "关于月经健康、周期追踪、生育和健康生活的技巧、指南与洞察。",
+    "backToHome": "返回首页",
+    "readMore": "阅读",
+    "noArticles": "暂无文章，请稍后查看。",
+    "relatedArticles": "相关文章",
+    "backToBlog": "返回博客",
+    "readArticle": "阅读文章",
+    "fromBlog": "博客精选",
+    "fromBlogSubtitle": "关于周期健康、健康生活和生育的洞察。",
+    "viewAll": "查看全部",
+    "viewAllArticles": "查看全部文章",
+    "tryCta": "免费体验 Your Rhythm",
+    "ctaDesc": "追踪周期、记录情绪、获取个性化洞察。iOS 和 Android 均可使用。"
+  }
+}

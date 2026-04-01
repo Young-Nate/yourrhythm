@@ -11,6 +11,9 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { BlogContent } from "@/components/blog-content";
 import type { BlogPost } from "@/lib/schema";
+import { isValidLocale, type Locale } from "@/lib/i18n/config";
+import { getTranslations } from "@/lib/i18n";
+import { getArticleTranslation } from "@/lib/i18n/article-translations";
 
 export const dynamic = "force-dynamic";
 
@@ -91,144 +94,125 @@ async function getRelatedPosts(currentSlug: string): Promise<BlogPost[]> {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: { locale: string; slug: string };
 }): Promise<Metadata> {
   const post = await getPost(params.slug);
   if (!post) return { title: "Article Not Found" };
 
+  const locale = params.locale as Locale;
+  const translation = isValidLocale(locale)
+    ? await getArticleTranslation(locale, params.slug)
+    : null;
+
+  const title = translation?.title || post.title;
+  const excerpt = translation?.excerpt || post.excerpt;
+
   return {
-    title: post.title,
-    description: post.excerpt,
+    title,
+    description: excerpt,
     openGraph: {
       type: "article",
-      title: post.title,
-      description: post.excerpt,
+      title,
+      description: excerpt,
       publishedTime: post.publishedAt,
       images: post.featuredImageUrl ? [post.featuredImageUrl] : [],
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
-      description: post.excerpt,
+      title,
+      description: excerpt,
       images: post.featuredImageUrl ? [post.featuredImageUrl] : [],
     },
   };
-}
-
-/* ── Components ──────────────────────────────────── */
-function ArticleCTA() {
-  return (
-    <div className="mt-12 rounded-2xl bg-gradient-to-r from-[hsl(14,60%,58%)] to-[hsl(350,45%,55%)] p-8 sm:p-10 text-center text-white">
-      <h3 className="text-xl sm:text-2xl font-bold mb-3">
-        Try Your Rhythm Free
-      </h3>
-      <p className="text-white/80 mb-6 max-w-md mx-auto text-sm leading-relaxed">
-        Track your cycle, log your mood, and get personalized insights. Available on iOS and Android.
-      </p>
-      <div className="flex flex-col sm:flex-row gap-3 justify-center">
-        <a
-          href="#"
-          className="inline-flex items-center justify-center gap-2 rounded-full h-11 px-6 font-semibold bg-white text-[hsl(14,60%,48%)] hover:bg-white/90 transition-colors"
-        >
-          <Apple className="w-4 h-4" />
-          App Store
-        </a>
-        <a
-          href="#"
-          className="inline-flex items-center justify-center gap-2 rounded-full h-11 px-6 font-semibold bg-white/15 text-white hover:bg-white/25 border border-white/20 transition-colors"
-        >
-          <Smartphone className="w-4 h-4" />
-          Google Play
-        </a>
-      </div>
-    </div>
-  );
-}
-
-function RelatedPostCard({ post }: { post: BlogPost }) {
-  return (
-    <Link href={`/blog/${post.slug}`} className="group">
-      <Card className="h-full border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-md cursor-pointer overflow-hidden">
-        {post.featuredImageUrl && (
-          <div className="aspect-[16/9] overflow-hidden">
-            <Image
-              src={post.featuredImageUrl}
-              alt={post.title}
-              width={800}
-              height={450}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            />
-          </div>
-        )}
-        <CardContent className="p-5">
-          <Badge variant="secondary" className="text-xs font-medium mb-3">
-            {post.category}
-          </Badge>
-          <h4 className="font-semibold text-sm mb-1.5 group-hover:text-primary transition-colors leading-snug">
-            {post.title}
-          </h4>
-          <p className="text-xs text-muted-foreground line-clamp-2">
-            {post.excerpt}
-          </p>
-          <span className="mt-3 text-xs font-medium text-primary flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-            Read article <ArrowRight className="w-3 h-3" />
-          </span>
-        </CardContent>
-      </Card>
-    </Link>
-  );
-}
-
-function ArticleJsonLd({ post }: { post: BlogPost }) {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: post.title,
-    description: post.excerpt,
-    datePublished: post.publishedAt,
-    author: {
-      "@type": "Person",
-      name: post.author || "Your Rhythm Team",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Your Rhythm",
-      url: "https://yourrhythm.app",
-    },
-  };
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-    />
-  );
 }
 
 /* ── Page ─────────────────────────────────────────── */
 export default async function BlogArticlePage({
   params,
 }: {
-  params: { slug: string };
+  params: { locale: string; slug: string };
 }) {
+  if (!isValidLocale(params.locale)) notFound();
+  const locale = params.locale as Locale;
+  const t = await getTranslations(locale);
+
   const post = await getPost(params.slug);
   if (!post) notFound();
 
   const relatedPosts = await getRelatedPosts(params.slug);
 
-  const contentWithoutH1 = post.content.replace(/^#\s+.+\n+/, "");
+  // Get translation for this article if available
+  const translation = await getArticleTranslation(locale, params.slug);
+  const displayTitle = translation?.title || post.title;
+  const displayContent = translation?.content || post.content;
+  const contentWithoutH1 = displayContent.replace(/^#\s+.+\n+/, "");
+
+  function ArticleCTA() {
+    return (
+      <div className="mt-12 rounded-2xl bg-gradient-to-r from-[hsl(14,60%,58%)] to-[hsl(350,45%,55%)] p-8 sm:p-10 text-center text-white">
+        <h3 className="text-xl sm:text-2xl font-bold mb-3">
+          {t.blog.tryCta}
+        </h3>
+        <p className="text-white/80 mb-6 max-w-md mx-auto text-sm leading-relaxed">
+          {t.blog.ctaDesc}
+        </p>
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <a
+            href="#"
+            className="inline-flex items-center justify-center gap-2 rounded-full h-11 px-6 font-semibold bg-white text-[hsl(14,60%,48%)] hover:bg-white/90 transition-colors"
+          >
+            <Apple className="w-4 h-4" />
+            {t.cta.appStore}
+          </a>
+          <a
+            href="#"
+            className="inline-flex items-center justify-center gap-2 rounded-full h-11 px-6 font-semibold bg-white/15 text-white hover:bg-white/25 border border-white/20 transition-colors"
+          >
+            <Smartphone className="w-4 h-4" />
+            {t.cta.googlePlay}
+          </a>
+        </div>
+      </div>
+    );
+  }
+
+  function ArticleJsonLd() {
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: displayTitle,
+      description: translation?.excerpt || post!.excerpt,
+      datePublished: post!.publishedAt,
+      author: {
+        "@type": "Person",
+        name: post!.author || "Your Rhythm Team",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Your Rhythm",
+        url: "https://yourrhythm.app",
+      },
+    };
+    return (
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col">
-      <ArticleJsonLd post={post} />
-      <BlogNav />
+      <ArticleJsonLd />
+      <BlogNav locale={locale} t={t.nav} />
       <main className="flex-1 py-12 sm:py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <Link
-            href="/blog"
+            href={`/${locale}/blog`}
             className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors mb-8"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
-            Back to Blog
+            {t.blog.backToBlog}
           </Link>
 
           <article>
@@ -237,7 +221,7 @@ export default async function BlogArticlePage({
                 {post.category}
               </Badge>
               <h1 className="text-3xl sm:text-4xl font-bold tracking-tight leading-tight mb-4">
-                {post.title}
+                {displayTitle}
               </h1>
               <div className="flex items-center gap-4 text-sm text-muted-foreground mb-8">
                 {post.author && (
@@ -247,7 +231,7 @@ export default async function BlogArticlePage({
                 )}
                 <span className="flex items-center gap-1.5">
                   <Calendar className="w-3.5 h-3.5" />
-                  {new Date(post.publishedAt).toLocaleDateString("en-US", {
+                  {new Date(post.publishedAt).toLocaleDateString(locale, {
                     year: "numeric",
                     month: "long",
                     day: "numeric",
@@ -262,7 +246,7 @@ export default async function BlogArticlePage({
                 <div className="rounded-xl overflow-hidden aspect-[16/9] mb-2">
                   <Image
                     src={post.featuredImageUrl}
-                    alt={post.title}
+                    alt={displayTitle}
                     width={1200}
                     height={675}
                     className="w-full h-full object-cover"
@@ -278,10 +262,38 @@ export default async function BlogArticlePage({
 
             {relatedPosts.length > 0 && (
               <div className="mt-14">
-                <h3 className="text-lg font-bold mb-5">Related Articles</h3>
+                <h3 className="text-lg font-bold mb-5">{t.blog.relatedArticles}</h3>
                 <div className="grid sm:grid-cols-2 gap-4">
                   {relatedPosts.map((rPost) => (
-                    <RelatedPostCard key={rPost.id} post={rPost} />
+                    <Link key={rPost.id} href={`/${locale}/blog/${rPost.slug}`} className="group">
+                      <Card className="h-full border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-md cursor-pointer overflow-hidden">
+                        {rPost.featuredImageUrl && (
+                          <div className="aspect-[16/9] overflow-hidden">
+                            <Image
+                              src={rPost.featuredImageUrl}
+                              alt={rPost.title}
+                              width={800}
+                              height={450}
+                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                          </div>
+                        )}
+                        <CardContent className="p-5">
+                          <Badge variant="secondary" className="text-xs font-medium mb-3">
+                            {rPost.category}
+                          </Badge>
+                          <h4 className="font-semibold text-sm mb-1.5 group-hover:text-primary transition-colors leading-snug">
+                            {rPost.title}
+                          </h4>
+                          <p className="text-xs text-muted-foreground line-clamp-2">
+                            {rPost.excerpt}
+                          </p>
+                          <span className="mt-3 text-xs font-medium text-primary flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                            {t.blog.readArticle} <ArrowRight className="w-3 h-3" />
+                          </span>
+                        </CardContent>
+                      </Card>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -289,7 +301,7 @@ export default async function BlogArticlePage({
           </article>
         </div>
       </main>
-      <BlogFooter />
+      <BlogFooter locale={locale} t={t.footer} />
     </div>
   );
 }

@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "features": "Özellikler",
+    "blog": "Blog",
+    "download": "Ücretsiz İndir",
+    "home": "Ana Sayfa"
+  },
+  "hero": {
+    "badge": "iOS ve Android için Ücretsiz",
+    "title1": "Döngün,",
+    "title2": "Ritmin",
+    "subtitle": "Yapay zeka destekli tahminlerle adetin takip et, ruh halini ve belirtilerini kaydet, kişiselleştirilmiş döngü içgörüleri al — hepsi tek bir güzel uygulamada.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "rating": "App Store'da 4,9 puan"
+  },
+  "features": {
+    "sectionBadge": "Özellikler",
+    "sectionTitle1": "Vücudunu tanımak için",
+    "sectionTitle2": "ihtiyacın olan her şey",
+    "sectionSubtitle": "Döngünü anlamana, değişimleri öngörmene ve kontrolü elinde tutmana yardımcı olmak için tasarlanmış akıllı takip araçları.",
+    "cycle": {
+      "title": "Akıllı Döngü Tahminleri",
+      "desc": "Zaman içinde eşsiz düzenini öğrenen yapay zeka destekli tahminler. Bir sonraki adetin, doğurganlık pencerenin ve yumurtlama gününün tam olarak ne zaman geleceğini bil — her döngüyle artan doğrulukla.",
+      "checks": ["Kişisel verilerinden öğrenir", "Doğurganlık penceresi tahminleri", "Güzel takvim görünümü"]
+    },
+    "mood": {
+      "title": "Ruh Hali ve Belirti Kaydı",
+      "desc": "Sezgisel kayıt sistemimizle her gün nasıl hissettiğini takip et. Ruh halleri, fiziksel belirtiler, enerji seviyeleri ve daha fazlasını kaydet — sonra daha önce fark etmediğin kalıpları keşfet.",
+      "checks": ["Hızlı günlük kontroller", "20'den fazla belirti takibi", "Zaman içinde örüntü tanıma"]
+    },
+    "insights": {
+      "title": "Kişiselleştirilmiş İçgörüler",
+      "desc": "Eşsiz döngünüze göre uyarlanmış yapay zeka destekli içgörüler al. Hormonların enerjini, ruh halini, cildin, sindirimini ve uykunuzu nasıl etkilediğini anla — ve her aşama için uygulanabilir tavsiyeler al.",
+      "checks": ["Aşamaya özel öneriler", "Beslenme ve egzersiz ipuçları", "Döngü sağlığı raporları"]
+    },
+    "setup": {
+      "title": "Kolay Kişiselleştirilmiş Kurulum",
+      "desc": "Bir dakikadan kısa sürede başla. Akıllı yerleştirme sürecimiz ilk günden itibaren tahminleri bedenine göre kalibre etmek için yalnızca birkaç soru sorar. Karmaşık kurulum gerekmez.",
+      "checks": ["60 saniyelik kurulum", "Anında tahminler", "Diğer uygulamalardan içe aktar"]
+    }
+  },
+  "why": {
+    "title": "Neden Your Rhythm?",
+    "subtitle": "Özenle yapılmış, bilimle desteklenmiş, seni ön plana çıkarmak için tasarlanmış.",
+    "privacy": {
+      "emoji": "🔒",
+      "title": "Gizlilik Önce",
+      "desc": "Verilerın cihazında kalır. Kişisel sağlık bilgilerini asla satmaz veya paylaşmayız."
+    },
+    "design": {
+      "emoji": "🎨",
+      "title": "Güzel Tasarım",
+      "desc": "Döngü takibini zahmetsiz ve keyifli hissettiren muhteşem, sezgisel bir arayüz."
+    },
+    "science": {
+      "emoji": "🔬",
+      "title": "Bilime Dayalı",
+      "desc": "Hakemli araştırmalar ve doğrulanmış algoritmalar tarafından desteklenen tahminler ve içgörüler."
+    },
+    "free": {
+      "emoji": "💝",
+      "title": "Ücretsiz Kullanım",
+      "desc": "Tüm temel özellikler tamamen ücretsizdir. Premium, daha fazlasını isteyenler için gelişmiş içgörüler ekler."
+    }
+  },
+  "reviews": {
+    "title": "Dünya Genelinde Kadınların Gözdesi",
+    "subtitle": "Döngü takibi için Your Rhythm'a güvenen binlerce kişiye katıl.",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "text": "Sonunda döngümü gerçekten öğrenen bir adet takipçisi buldum. Tahminler iki ay içinde doğru hale geldi ve ruh hali içgörüleri inanılmaz."
+      },
+      {
+        "name": "Jessica L.",
+        "text": "Bu uygulamanın ne kadar sade ve güzel olduğunu seviyorum. Günlük kontroller 10 saniye sürüyor ve yapay zeka içgörüleri PMS kalıplarımı anlamama gerçekten yardımcı oldu."
+      },
+      {
+        "name": "Maria K.",
+        "text": "5 farklı takipçi denedikten sonra, Your Rhythm bende kalan tek uygulama oldu. Doğurganlık tahminleri hamile kalmama yardımcı oldu ve verilerimin gizli kalmasını seviyorum."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bugün Döngünü Takip Etmeye Başla",
+    "subtitle": "Your Rhythm ile bedenlerini daha iyi anlayan binlerce kadına katıl. İndirmesi ücretsiz, hesap gerekmez.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "footer": {
+    "desc": "Yapay zeka destekli döngü tahminleri, ruh hali kaydı ve kişiselleştirilmiş içgörüler içeren akıllı adet takipçisi.",
+    "product": "Ürün",
+    "features": "Özellikler",
+    "download": "İndir",
+    "resources": "Kaynaklar",
+    "blog": "Blog",
+    "helpCenter": "Yardım Merkezi",
+    "contact": "İletişim",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "copyright": "© 2026 Your Rhythm. Tüm hakları saklıdır.",
+    "madeWith": "Perplexity Computer ile oluşturuldu"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Döngü sağlığı, sağlıklı yaşam ve doğurganlık hakkında ipuçları, kılavuzlar ve içgörüler.",
+    "metaTitle": "Blog — Döngü Sağlığı, Sağlıklı Yaşam ve Doğurganlık İpuçları",
+    "metaDesc": "Adet sağlığı, döngü takibi, doğurganlık ve sağlıklı yaşam hakkında ipuçları, kılavuzlar ve içgörüler.",
+    "backToHome": "Ana Sayfaya Dön",
+    "readMore": "Oku",
+    "noArticles": "Henüz makale yok. Yakında tekrar kontrol et.",
+    "relatedArticles": "İlgili Makaleler",
+    "backToBlog": "Bloga Dön",
+    "readArticle": "Makaleyi oku",
+    "fromBlog": "Blogdan",
+    "fromBlogSubtitle": "Döngü sağlığı, sağlıklı yaşam ve doğurganlık hakkında içgörüler.",
+    "viewAll": "Tümünü gör",
+    "viewAllArticles": "Tüm makaleleri gör",
+    "tryCta": "Your Rhythm'ı Ücretsiz Dene",
+    "ctaDesc": "Döngünü takip et, ruh halini kaydet ve kişiselleştirilmiş içgörüler al. iOS ve Android'de mevcut."
+  }
+}

@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import type { Locale } from "@/lib/i18n/config";
+import type { Translations } from "@/lib/i18n";
 
 function HeartLogoSmall({ className }: { className?: string }) {
   return (
@@ -20,7 +22,13 @@ function HeartLogoSmall({ className }: { className?: string }) {
   );
 }
 
-export function Footer() {
+interface FooterProps {
+  locale: Locale;
+  t: Translations["footer"];
+  blogT?: Translations["nav"];
+}
+
+export function Footer({ locale, t, blogT }: FooterProps) {
   return (
     <footer className="py-12 bg-[hsl(20,35%,95%)] border-t border-border/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -31,11 +39,11 @@ export function Footer() {
               <span className="font-bold text-base">Your Rhythm</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Smart period tracker with AI-powered cycle predictions, mood logging, and personalized insights.
+              {t.desc}
             </p>
           </div>
           <div>
-            <h4 className="font-semibold text-sm mb-4">Product</h4>
+            <h4 className="font-semibold text-sm mb-4">{t.product}</h4>
             <ul className="space-y-2.5">
               <li>
                 <button
@@ -46,7 +54,7 @@ export function Footer() {
                   }
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Features
+                  {t.features}
                 </button>
               </li>
               <li>
@@ -54,20 +62,20 @@ export function Footer() {
                   href="#"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Download
+                  {t.download}
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold text-sm mb-4">Resources</h4>
+            <h4 className="font-semibold text-sm mb-4">{t.resources}</h4>
             <ul className="space-y-2.5">
               <li>
                 <Link
-                  href="/blog"
+                  href={`/${locale}/blog`}
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Blog
+                  {t.blog}
                 </Link>
               </li>
               <li>
@@ -75,7 +83,7 @@ export function Footer() {
                   href="#"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Help Center
+                  {t.helpCenter}
                 </a>
               </li>
               <li>
@@ -83,20 +91,20 @@ export function Footer() {
                   href="#"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Contact
+                  {t.contact}
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold text-sm mb-4">Legal</h4>
+            <h4 className="font-semibold text-sm mb-4">{t.legal}</h4>
             <ul className="space-y-2.5">
               <li>
                 <a
                   href="#"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Privacy Policy
+                  {t.privacy}
                 </a>
               </li>
               <li>
@@ -104,7 +112,7 @@ export function Footer() {
                   href="#"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Terms of Service
+                  {t.terms}
                 </a>
               </li>
             </ul>
@@ -112,7 +120,7 @@ export function Footer() {
         </div>
         <div className="pt-8 border-t border-border/50 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; 2026 Your Rhythm. All rights reserved.
+            {t.copyright}
           </p>
           <a
             href="https://www.perplexity.ai/computer"
@@ -120,7 +128,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="text-xs text-muted-foreground hover:text-foreground transition-colors"
           >
-            Created with Perplexity Computer
+            {t.madeWith}
           </a>
         </div>
       </div>
@@ -128,7 +136,12 @@ export function Footer() {
   );
 }
 
-export function BlogFooter() {
+interface BlogFooterProps {
+  locale: Locale;
+  t: Translations["footer"];
+}
+
+export function BlogFooter({ locale, t }: BlogFooterProps) {
   return (
     <footer className="py-10 bg-[hsl(20,35%,95%)] border-t border-border/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -142,10 +155,10 @@ export function BlogFooter() {
           rel="noopener noreferrer"
           className="text-xs text-muted-foreground hover:text-foreground transition-colors"
         >
-          Created with Perplexity Computer
+          {t.madeWith}
         </a>
         <p className="text-xs text-muted-foreground">
-          &copy; 2026 Your Rhythm
+          {t.copyright}
         </p>
       </div>
     </footer>

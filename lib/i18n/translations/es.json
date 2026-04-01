@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "features": "Funciones",
+    "blog": "Blog",
+    "download": "Descargar gratis",
+    "home": "Inicio"
+  },
+  "hero": {
+    "badge": "Gratis para iOS y Android",
+    "title1": "Tu ciclo,",
+    "title2": "tu ritmo",
+    "subtitle": "Registra tu menstruación con predicciones impulsadas por IA, anota tu estado de ánimo y síntomas, y obtén información personalizada sobre tu ciclo — todo en una hermosa aplicación.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "rating": "4.9 estrellas en App Store"
+  },
+  "features": {
+    "sectionBadge": "Funciones",
+    "sectionTitle1": "Todo lo que necesitas para",
+    "sectionTitle2": "conocer tu cuerpo",
+    "sectionSubtitle": "Herramientas de seguimiento inteligentes diseñadas para ayudarte a entender tu ciclo, anticipar cambios y sentirte en control.",
+    "cycle": {
+      "title": "Predicciones inteligentes del ciclo",
+      "desc": "Predicciones con IA que aprenden tu patrón único con el tiempo. Sabe exactamente cuándo esperar tu próxima menstruación, ventana fértil y día de ovulación — con mayor precisión en cada ciclo.",
+      "checks": ["Aprende de tus datos personales", "Estimaciones de ventana fértil", "Vista de calendario preciosa"]
+    },
+    "mood": {
+      "title": "Registro de estado de ánimo y síntomas",
+      "desc": "Registra cómo te sientes cada día con nuestro sistema de anotación intuitivo. Anota estados de ánimo, síntomas físicos, niveles de energía y más — luego descubre patrones que nunca habías notado.",
+      "checks": ["Registros diarios rápidos", "Más de 20 síntomas para rastrear", "Reconocimiento de patrones a lo largo del tiempo"]
+    },
+    "insights": {
+      "title": "Información personalizada",
+      "desc": "Obtén información respaldada por IA adaptada a tu ciclo único. Entiende cómo afectan tus hormonas a tu energía, estado de ánimo, piel, digestión y sueño — y recibe consejos prácticos para cada fase.",
+      "checks": ["Recomendaciones específicas por fase", "Consejos de nutrición y ejercicio", "Informes de salud del ciclo"]
+    },
+    "setup": {
+      "title": "Configuración fácil y personalizada",
+      "desc": "Empieza en menos de un minuto. Nuestro proceso de incorporación inteligente hace solo algunas preguntas para calibrar las predicciones a tu cuerpo desde el primer día. Sin configuración complicada.",
+      "checks": ["Configuración en 60 segundos", "Predicciones inmediatas", "Importar desde otras apps"]
+    }
+  },
+  "why": {
+    "title": "¿Por qué Your Rhythm?",
+    "subtitle": "Creada con cuidado, respaldada por la ciencia y diseñada para ponerte a ti primero.",
+    "privacy": {
+      "emoji": "🔒",
+      "title": "Privacidad primero",
+      "desc": "Tus datos permanecen en tu dispositivo. Nunca vendemos ni compartimos tu información de salud personal."
+    },
+    "design": {
+      "emoji": "🎨",
+      "title": "Diseño hermoso",
+      "desc": "Una interfaz preciosa e intuitiva que hace que seguir tu ciclo sea fácil y agradable."
+    },
+    "science": {
+      "emoji": "🔬",
+      "title": "Basada en ciencia",
+      "desc": "Predicciones e información respaldadas por investigaciones revisadas por pares y algoritmos validados."
+    },
+    "free": {
+      "emoji": "💝",
+      "title": "Gratis",
+      "desc": "Todas las funciones principales son completamente gratuitas. El plan Premium añade información avanzada para quienes quieren más."
+    }
+  },
+  "reviews": {
+    "title": "Amada por mujeres de todo el mundo",
+    "subtitle": "Únete a miles que confían en Your Rhythm para el seguimiento del ciclo.",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "text": "Por fin un rastreador de menstruación que realmente aprende mi ciclo. Las predicciones se volvieron precisas en dos meses y los análisis de estado de ánimo son increíbles."
+      },
+      {
+        "name": "Jessica L.",
+        "text": "Me encanta lo sencilla y bonita que es esta app. Los registros diarios toman 10 segundos y los análisis de IA me ayudaron a entender mis patrones de SPM."
+      },
+      {
+        "name": "Maria K.",
+        "text": "Después de probar 5 rastreadores, Your Rhythm es el que se quedó. Las predicciones de fertilidad me ayudaron a concebir y me encanta que mis datos sean privados."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Empieza a rastrear tu ciclo hoy",
+    "subtitle": "Únete a miles de mujeres que entienden mejor su cuerpo con Your Rhythm. Gratis para descargar, sin cuenta requerida.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "footer": {
+    "desc": "Rastreador de menstruación inteligente con predicciones de ciclo por IA, registro de estado de ánimo e información personalizada.",
+    "product": "Producto",
+    "features": "Funciones",
+    "download": "Descargar",
+    "resources": "Recursos",
+    "blog": "Blog",
+    "helpCenter": "Centro de ayuda",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyright": "© 2026 Your Rhythm. Todos los derechos reservados.",
+    "madeWith": "Creado con Perplexity Computer"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Consejos, guías e información sobre salud del ciclo, bienestar y fertilidad.",
+    "metaTitle": "Blog — Consejos de salud del ciclo, bienestar y fertilidad",
+    "metaDesc": "Consejos, guías e información sobre salud menstrual, seguimiento del ciclo, fertilidad y bienestar.",
+    "backToHome": "Volver al inicio",
+    "readMore": "Leer",
+    "noArticles": "Aún no hay artículos. Vuelve pronto.",
+    "relatedArticles": "Artículos relacionados",
+    "backToBlog": "Volver al blog",
+    "readArticle": "Leer artículo",
+    "fromBlog": "Del blog",
+    "fromBlogSubtitle": "Información sobre salud del ciclo, bienestar y fertilidad.",
+    "viewAll": "Ver todo",
+    "viewAllArticles": "Ver todos los artículos",
+    "tryCta": "Prueba Your Rhythm gratis",
+    "ctaDesc": "Registra tu ciclo, anota tu estado de ánimo y obtén información personalizada. Disponible en iOS y Android."
+  }
+}

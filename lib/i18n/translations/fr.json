@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "blog": "Blog",
+    "download": "Télécharger gratuitement",
+    "home": "Accueil"
+  },
+  "hero": {
+    "badge": "Gratuit sur iOS et Android",
+    "title1": "Votre cycle,",
+    "title2": "votre rythme",
+    "subtitle": "Suivez vos règles grâce à des prédictions basées sur l'IA, notez votre humeur et vos symptômes, et obtenez des analyses personnalisées de votre cycle — le tout dans une superbe application.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "rating": "4,9 étoiles sur l'App Store"
+  },
+  "features": {
+    "sectionBadge": "Fonctionnalités",
+    "sectionTitle1": "Tout ce dont vous avez besoin pour",
+    "sectionTitle2": "mieux connaître votre corps",
+    "sectionSubtitle": "Des outils de suivi intelligents conçus pour vous aider à comprendre votre cycle, anticiper les changements et vous sentir maîtresse de votre corps.",
+    "cycle": {
+      "title": "Prédictions intelligentes du cycle",
+      "desc": "Des prédictions basées sur l'IA qui apprennent votre schéma unique au fil du temps. Sachez exactement quand attendre vos prochaines règles, votre fenêtre fertile et votre jour d'ovulation — avec une précision croissante à chaque cycle.",
+      "checks": ["Apprend de vos données personnelles", "Estimations de la fenêtre fertile", "Vue calendrier magnifique"]
+    },
+    "mood": {
+      "title": "Suivi de l'humeur et des symptômes",
+      "desc": "Enregistrez comment vous vous sentez chaque jour grâce à notre système de journalisation intuitif. Notez humeurs, symptômes physiques, niveaux d'énergie et plus — puis découvrez des schémas que vous n'aviez jamais remarqués.",
+      "checks": ["Enregistrements quotidiens rapides", "Plus de 20 symptômes à suivre", "Reconnaissance des schémas dans le temps"]
+    },
+    "insights": {
+      "title": "Analyses personnalisées",
+      "desc": "Obtenez des analyses soutenues par l'IA adaptées à votre cycle unique. Comprenez comment vos hormones affectent votre énergie, votre humeur, votre peau, votre digestion et votre sommeil — et recevez des conseils pratiques pour chaque phase.",
+      "checks": ["Recommandations spécifiques par phase", "Conseils nutrition et exercice", "Rapports de santé du cycle"]
+    },
+    "setup": {
+      "title": "Configuration facile et personnalisée",
+      "desc": "Commencez en moins d'une minute. Notre processus d'intégration intelligent pose seulement quelques questions pour calibrer les prédictions à votre corps dès le premier jour. Aucune configuration compliquée requise.",
+      "checks": ["Configuration en 60 secondes", "Prédictions immédiates", "Importation depuis d'autres apps"]
+    }
+  },
+  "why": {
+    "title": "Pourquoi Your Rhythm ?",
+    "subtitle": "Conçue avec soin, soutenue par la science et pensée pour vous mettre en premier.",
+    "privacy": {
+      "emoji": "🔒",
+      "title": "La vie privée avant tout",
+      "desc": "Vos données restent sur votre appareil. Nous ne vendons ni ne partageons jamais vos informations de santé personnelles."
+    },
+    "design": {
+      "emoji": "🎨",
+      "title": "Design magnifique",
+      "desc": "Une interface superbe et intuitive qui rend le suivi de votre cycle agréable et sans effort."
+    },
+    "science": {
+      "emoji": "🔬",
+      "title": "Fondée sur la science",
+      "desc": "Prédictions et analyses soutenues par des recherches évaluées par des pairs et des algorithmes validés."
+    },
+    "free": {
+      "emoji": "💝",
+      "title": "Gratuite",
+      "desc": "Toutes les fonctionnalités essentielles sont entièrement gratuites. Premium ajoute des analyses avancées pour celles qui en veulent plus."
+    }
+  },
+  "reviews": {
+    "title": "Adorée par les femmes du monde entier",
+    "subtitle": "Rejoignez des milliers de femmes qui font confiance à Your Rhythm pour le suivi de leur cycle.",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "text": "Enfin un tracker de règles qui apprend vraiment mon cycle. Les prédictions sont devenues précises en deux mois, et les analyses d'humeur sont incroyables."
+      },
+      {
+        "name": "Jessica L.",
+        "text": "J'adore la simplicité et la beauté de cette app. Les enregistrements quotidiens prennent 10 secondes, et les analyses IA m'ont vraiment aidée à comprendre mes schémas de SPM."
+      },
+      {
+        "name": "Maria K.",
+        "text": "Après avoir essayé 5 autres trackers, Your Rhythm est celui qui m'a convaincue. Les prédictions de fertilité m'ont aidée à concevoir, et j'adore que mes données restent privées."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Commencez à suivre votre cycle aujourd'hui",
+    "subtitle": "Rejoignez des milliers de femmes qui comprennent mieux leur corps avec Your Rhythm. Gratuit à télécharger, sans compte requis.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "footer": {
+    "desc": "Tracker de règles intelligent avec prédictions de cycle par IA, journal d'humeur et analyses personnalisées.",
+    "product": "Produit",
+    "features": "Fonctionnalités",
+    "download": "Télécharger",
+    "resources": "Ressources",
+    "blog": "Blog",
+    "helpCenter": "Centre d'aide",
+    "contact": "Contact",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyright": "© 2026 Your Rhythm. Tous droits réservés.",
+    "madeWith": "Créé avec Perplexity Computer"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Conseils, guides et analyses sur la santé du cycle, le bien-être et la fertilité.",
+    "metaTitle": "Blog — Conseils santé du cycle, bien-être et fertilité",
+    "metaDesc": "Conseils, guides et analyses sur la santé menstruelle, le suivi du cycle, la fertilité et le bien-être.",
+    "backToHome": "Retour à l'accueil",
+    "readMore": "Lire",
+    "noArticles": "Aucun article pour l'instant. Revenez bientôt.",
+    "relatedArticles": "Articles connexes",
+    "backToBlog": "Retour au blog",
+    "readArticle": "Lire l'article",
+    "fromBlog": "Du blog",
+    "fromBlogSubtitle": "Analyses sur la santé du cycle, le bien-être et la fertilité.",
+    "viewAll": "Voir tout",
+    "viewAllArticles": "Voir tous les articles",
+    "tryCta": "Essayez Your Rhythm gratuitement",
+    "ctaDesc": "Suivez votre cycle, notez votre humeur et obtenez des analyses personnalisées. Disponible sur iOS et Android."
+  }
+}

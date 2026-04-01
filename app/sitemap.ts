@@ -2,24 +2,28 @@ import { MetadataRoute } from "next";
 import { db } from "@/lib/db";
 import { blogPosts } from "@/lib/schema";
 import { desc } from "drizzle-orm";
+import { locales } from "@/lib/i18n/config";
 
 const BASE_URL = "https://yourrhythm.app";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const staticPages: MetadataRoute.Sitemap = [
-    {
-      url: BASE_URL,
+  const staticPages: MetadataRoute.Sitemap = [];
+
+  // Add locale-specific pages for each locale
+  for (const locale of locales) {
+    staticPages.push({
+      url: `${BASE_URL}/${locale}`,
       lastModified: new Date(),
       changeFrequency: "weekly",
-      priority: 1,
-    },
-    {
-      url: `${BASE_URL}/blog`,
+      priority: locale === "en" ? 1 : 0.9,
+    });
+    staticPages.push({
+      url: `${BASE_URL}/${locale}/blog`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 0.8,
-    },
-  ];
+    });
+  }
 
   let blogPages: MetadataRoute.Sitemap = [];
   try {
@@ -28,12 +32,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       .from(blogPosts)
       .orderBy(desc(blogPosts.publishedAt));
 
-    blogPages = posts.map((post) => ({
-      url: `${BASE_URL}/blog/${post.slug}`,
-      lastModified: new Date(post.publishedAt),
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    }));
+    for (const post of posts) {
+      for (const locale of locales) {
+        blogPages.push({
+          url: `${BASE_URL}/${locale}/blog/${post.slug}`,
+          lastModified: new Date(post.publishedAt),
+          changeFrequency: "monthly" as const,
+          priority: 0.6,
+        });
+      }
+    }
   } catch {
     // DB not available at build time
   }
