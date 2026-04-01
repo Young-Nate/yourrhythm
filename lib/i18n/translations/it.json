@@ -10,8 +10,8 @@
     "title1": "Il tuo ciclo,",
     "title2": "il tuo ritmo",
     "subtitle": "Tieni traccia del tuo ciclo con previsioni basate sull'IA, registra il tuo umore e i sintomi, e ottieni insight personalizzati — tutto in un'app meravigliosa.",
-    "appStore": "App Store",
-    "googlePlay": "Google Play",
+    "appStore": "Scarica su iOS",
+    "googlePlay": "Ottieni su Android",
     "rating": "4,9 stelle sull'App Store"
   },
   "features": {
@@ -22,22 +22,38 @@
     "cycle": {
       "title": "Previsioni intelligenti del ciclo",
       "desc": "Previsioni basate sull'IA che imparano il tuo schema unico nel tempo. Sappi esattamente quando aspettarti il prossimo ciclo, la finestra fertile e il giorno dell'ovulazione — con precisione crescente ad ogni ciclo.",
-      "checks": ["Apprende dai tuoi dati personali", "Stime della finestra fertile", "Bellissima vista calendario"]
+      "checks": [
+        "Apprende dai tuoi dati personali",
+        "Stime della finestra fertile",
+        "Bellissima vista calendario"
+      ]
     },
     "mood": {
       "title": "Registrazione di umore e sintomi",
       "desc": "Tieni traccia di come ti senti ogni giorno con il nostro sistema di registrazione intuitivo. Annota stati d'animo, sintomi fisici, livelli di energia e altro — poi scopri pattern che non avevi mai notato prima.",
-      "checks": ["Check-in quotidiani veloci", "Oltre 20 sintomi da tracciare", "Riconoscimento dei pattern nel tempo"]
+      "checks": [
+        "Check-in quotidiani veloci",
+        "Oltre 20 sintomi da tracciare",
+        "Riconoscimento dei pattern nel tempo"
+      ]
     },
     "insights": {
       "title": "Insight personalizzati",
       "desc": "Ottieni insight supportati dall'IA adattati al tuo ciclo unico. Capisci come i tuoi ormoni influenzano energia, umore, pelle, digestione e sonno — e ricevi consigli pratici per ogni fase.",
-      "checks": ["Raccomandazioni specifiche per fase", "Consigli su nutrizione ed esercizio", "Report sulla salute del ciclo"]
+      "checks": [
+        "Raccomandazioni specifiche per fase",
+        "Consigli su nutrizione ed esercizio",
+        "Report sulla salute del ciclo"
+      ]
     },
     "setup": {
       "title": "Configurazione facile e personalizzata",
       "desc": "Inizia in meno di un minuto. Il nostro onboarding intelligente pone solo poche domande per calibrare le previsioni al tuo corpo fin dal primo giorno. Nessuna configurazione complicata.",
-      "checks": ["Configurazione in 60 secondi", "Previsioni immediate", "Importa da altre app"]
+      "checks": [
+        "Configurazione in 60 secondi",
+        "Previsioni immediate",
+        "Importa da altre app"
+      ]
     }
   },
   "why": {
@@ -85,8 +101,8 @@
   "cta": {
     "title": "Inizia a monitorare il tuo ciclo oggi",
     "subtitle": "Unisciti alle migliaia di donne che capiscono meglio il proprio corpo con Your Rhythm. Gratis da scaricare, nessun account richiesto.",
-    "appStore": "App Store",
-    "googlePlay": "Google Play"
+    "appStore": "Scarica su iOS",
+    "googlePlay": "Ottieni su Android"
   },
   "footer": {
     "desc": "Tracker mestruale intelligente con previsioni del ciclo basate sull'IA, registro dell'umore e insight personalizzati.",

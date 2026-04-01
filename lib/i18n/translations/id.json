@@ -10,8 +10,8 @@
     "title1": "Siklusmu,",
     "title2": "Ritmusmu",
     "subtitle": "Lacak menstruasimu dengan prediksi bertenaga AI, catat suasana hati dan gejalamu, dan dapatkan wawasan siklus yang dipersonalisasi — semua dalam satu aplikasi yang indah.",
-    "appStore": "App Store",
-    "googlePlay": "Google Play",
+    "appStore": "Unduh di iOS",
+    "googlePlay": "Unduh di Android",
     "rating": "Rating 4,9 di App Store"
   },
   "features": {
@@ -22,22 +22,38 @@
     "cycle": {
       "title": "Prediksi Siklus Cerdas",
       "desc": "Prediksi bertenaga AI yang mempelajari polamu yang unik dari waktu ke waktu. Ketahui kapan tepatnya menstruasi berikutnya, jendela subur, dan hari ovulasi — dengan akurasi yang terus meningkat setiap siklus.",
-      "checks": ["Belajar dari data pribadimu", "Estimasi jendela subur", "Tampilan kalender yang indah"]
+      "checks": [
+        "Belajar dari data pribadimu",
+        "Estimasi jendela subur",
+        "Tampilan kalender yang indah"
+      ]
     },
     "mood": {
       "title": "Pencatatan Suasana Hati & Gejala",
       "desc": "Lacak perasaanmu setiap hari dengan sistem pencatatan intuitif kami. Catat suasana hati, gejala fisik, tingkat energi, dan lainnya — lalu temukan pola yang belum pernah kamu sadari sebelumnya.",
-      "checks": ["Check-in harian cepat", "Lacak 20+ gejala", "Pengenalan pola dari waktu ke waktu"]
+      "checks": [
+        "Check-in harian cepat",
+        "Lacak 20+ gejala",
+        "Pengenalan pola dari waktu ke waktu"
+      ]
     },
     "insights": {
       "title": "Wawasan Terpersonalisasi",
       "desc": "Dapatkan wawasan yang didukung AI dan disesuaikan dengan siklusmu yang unik. Pahami bagaimana hormonmu memengaruhi energi, suasana hati, kulit, pencernaan, dan tidur — serta dapatkan saran praktis untuk setiap fase.",
-      "checks": ["Rekomendasi khusus per fase", "Tips nutrisi dan olahraga", "Laporan kesehatan siklus"]
+      "checks": [
+        "Rekomendasi khusus per fase",
+        "Tips nutrisi dan olahraga",
+        "Laporan kesehatan siklus"
+      ]
     },
     "setup": {
       "title": "Pengaturan Mudah & Terpersonalisasi",
       "desc": "Mulai dalam waktu kurang dari satu menit. Proses orientasi cerdas kami hanya mengajukan beberapa pertanyaan untuk mengkalibrasi prediksi ke tubuhmu sejak hari pertama. Tidak ada pengaturan rumit.",
-      "checks": ["Pengaturan 60 detik", "Prediksi langsung", "Impor dari aplikasi lain"]
+      "checks": [
+        "Pengaturan 60 detik",
+        "Prediksi langsung",
+        "Impor dari aplikasi lain"
+      ]
     }
   },
   "why": {
@@ -85,8 +101,8 @@
   "cta": {
     "title": "Mulai Lacak Siklusmu Hari Ini",
     "subtitle": "Bergabunglah dengan ribuan wanita yang memahami tubuh mereka lebih baik dengan Your Rhythm. Gratis diunduh, tidak perlu akun.",
-    "appStore": "App Store",
-    "googlePlay": "Google Play"
+    "appStore": "Unduh di iOS",
+    "googlePlay": "Unduh di Android"
   },
   "footer": {
     "desc": "Pelacak menstruasi cerdas dengan prediksi siklus bertenaga AI, pencatatan suasana hati, dan wawasan terpersonalisasi.",
