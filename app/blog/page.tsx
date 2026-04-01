@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { db } from "@/lib/db";
 import { blogPosts } from "@/lib/schema";
 import { BlogNav } from "@/components/navbar";
@@ -58,6 +59,17 @@ function BlogCard({ post }: { post: BlogPost }) {
   return (
     <Link href={`/blog/${post.slug}`} className="group">
       <Card className="h-full border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-md cursor-pointer overflow-hidden">
+        {post.featuredImageUrl && (
+          <div className="aspect-[16/9] overflow-hidden">
+            <Image
+              src={post.featuredImageUrl}
+              alt={post.title}
+              width={800}
+              height={450}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+        )}
         <CardContent className="p-5">
           <div className="flex items-center gap-3 mb-3">
             <Badge variant="secondary" className="text-xs font-medium">

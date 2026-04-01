@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { db } from "@/lib/db";
 import { blogPosts } from "@/lib/schema";
@@ -103,11 +104,13 @@ export async function generateMetadata({
       title: post.title,
       description: post.excerpt,
       publishedTime: post.publishedAt,
+      images: post.featuredImageUrl ? [post.featuredImageUrl] : [],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
+      images: post.featuredImageUrl ? [post.featuredImageUrl] : [],
     },
   };
 }
@@ -146,6 +149,17 @@ function RelatedPostCard({ post }: { post: BlogPost }) {
   return (
     <Link href={`/blog/${post.slug}`} className="group">
       <Card className="h-full border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-md cursor-pointer overflow-hidden">
+        {post.featuredImageUrl && (
+          <div className="aspect-[16/9] overflow-hidden">
+            <Image
+              src={post.featuredImageUrl}
+              alt={post.title}
+              width={800}
+              height={450}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+        )}
         <CardContent className="p-5">
           <Badge variant="secondary" className="text-xs font-medium mb-3">
             {post.category}
@@ -244,6 +258,18 @@ export default async function BlogArticlePage({
                   {post.readTime}
                 </span>
               </div>
+              {post.featuredImageUrl && (
+                <div className="rounded-xl overflow-hidden aspect-[16/9] mb-2">
+                  <Image
+                    src={post.featuredImageUrl}
+                    alt={post.title}
+                    width={1200}
+                    height={675}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
+                </div>
+              )}
             </header>
 
             <BlogContent content={contentWithoutH1} />

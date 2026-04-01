@@ -26,6 +26,7 @@ export async function POST(request: NextRequest) {
     readTime: string;
     publishedAt?: string;
     author?: string;
+    featuredImageUrl?: string;
   };
 
   try {
@@ -34,7 +35,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Invalid JSON" }, { status: 400 });
   }
 
-  const { title, slug, excerpt, content, category, readTime, publishedAt, author } = body;
+  const { title, slug, excerpt, content, category, readTime, publishedAt, author, featuredImageUrl } = body;
 
   // Validate required fields
   if (!title || !slug || !excerpt || !content || !category || !readTime) {
@@ -58,6 +59,7 @@ export async function POST(request: NextRequest) {
         readTime,
         publishedAt: publishedAt || now,
         author: author || "Your Rhythm Team",
+        featuredImageUrl: featuredImageUrl || null,
       })
       .returning();
 

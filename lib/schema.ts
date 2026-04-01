@@ -10,6 +10,7 @@ export const blogPosts = sqliteTable("blog_posts", {
   readTime: text("read_time").notNull(),
   publishedAt: text("published_at").notNull(),
   author: text("author").default("Your Rhythm Team"),
+  featuredImageUrl: text("featured_image_url"),
 });
 
 export type BlogPost = typeof blogPosts.$inferSelect;
