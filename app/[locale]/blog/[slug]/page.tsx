@@ -47,10 +47,10 @@ function Apple({ className }: { className?: string }) {
     </svg>
   );
 }
-function Smartphone({ className }: { className?: string }) {
+function PlayStore({ className }: { className?: string }) {
   return (
-    <svg className={className} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/>
+    <svg className={className} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 0 1 0 1.38l-2.302 2.302L15.396 12l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/>
     </svg>
   );
 }
@@ -168,7 +168,7 @@ export default async function BlogArticlePage({
             href="#"
             className="inline-flex items-center justify-center gap-2 rounded-full h-11 px-6 font-semibold bg-white/15 text-white hover:bg-white/25 border border-white/20 transition-colors"
           >
-            <Smartphone className="w-4 h-4" />
+            <PlayStore className="w-4 h-4" />
             {t.cta.googlePlay}
           </a>
         </div>
