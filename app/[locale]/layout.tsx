@@ -52,6 +52,7 @@ export default function LocaleLayout({
   return (
     <html lang={locale} dir={dir}>
       <head>
+        <meta name="google-site-verification" content="GjXPxHozfZGDVkCotYanXyalP4XO3oT26HbL3x08sSk" />
         <link rel="preconnect" href="https://api.fontshare.com" />
         <link
           rel="stylesheet"
