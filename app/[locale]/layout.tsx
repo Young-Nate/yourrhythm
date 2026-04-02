@@ -53,6 +53,8 @@ export default function LocaleLayout({
     <html lang={locale} dir={dir}>
       <head>
         <meta name="google-site-verification" content="GjXPxHozfZGDVkCotYanXyalP4XO3oT26HbL3x08sSk" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="preconnect" href="https://api.fontshare.com" />
         <link
           rel="stylesheet"
