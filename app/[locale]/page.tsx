@@ -26,8 +26,11 @@ function Apple({ className }: { className?: string }) {
 
 function PlayStore({ className }: { className?: string }) {
   return (
-    <svg className={className} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 0 1 0 1.38l-2.302 2.302L15.396 12l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/>
+    <svg className={className} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M3.18 1.52L13.58 12 3.18 22.48a1.04 1.04 0 0 1-.18-.6V2.12c0-.22.06-.42.18-.6z" fill="#4285F4"/>
+      <path d="M17.34 8.15L13.58 12l3.76 3.85 4.28-2.43c.78-.44.78-1.4 0-1.84l-4.28-2.43z" fill="#FBBC04"/>
+      <path d="M3.18 22.48c.2.3.5.5.86.52l13.3-7.15L13.58 12 3.18 22.48z" fill="#EA4335"/>
+      <path d="M3.18 1.52L13.58 12l3.76-3.85L4.04 1c-.36.02-.66.22-.86.52z" fill="#34A853"/>
     </svg>
   );
 }
