@@ -113,6 +113,9 @@ export async function generateMetadata({
   return {
     title,
     description: excerpt,
+    alternates: {
+      canonical: `https://yourrhythm.app/${params.locale}/blog/${params.slug}`,
+    },
     openGraph: {
       type: "article",
       title,
