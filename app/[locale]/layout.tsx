@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
-import { isValidLocale, isRTL, type Locale } from "@/lib/i18n/config";
+import { headers } from "next/headers";
+import { isValidLocale, isRTL, locales, type Locale } from "@/lib/i18n/config";
 import { notFound } from "next/navigation";
+
+const BASE_URL = "https://yourrhythm.app";
 
 export async function generateMetadata({
   params,
@@ -9,6 +12,24 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const locale = params.locale;
   if (!isValidLocale(locale)) return {};
+
+  // Read the pathname set by middleware
+  const headersList = headers();
+  const pathname = headersList.get("x-pathname") || `/${locale}`;
+
+  // Strip the leading locale segment to get the path suffix (e.g. /blog/some-slug)
+  const segments = pathname.split("/");
+  // segments[0] = "", segments[1] = locale, segments[2..] = rest
+  const pathSuffix = segments.slice(2).join("/");
+  const suffix = pathSuffix ? `/${pathSuffix}` : "";
+
+  // Build alternates for all locales
+  const languages: Record<string, string> = {};
+  for (const loc of locales) {
+    languages[loc] = `${BASE_URL}/${loc}${suffix}`;
+  }
+  // x-default points to /en
+  languages["x-default"] = `${BASE_URL}/en${suffix}`;
 
   return {
     title: {
@@ -25,7 +46,10 @@ export async function generateMetadata({
       "fertility tracker",
       "period app",
     ],
-    metadataBase: new URL("https://yourrhythm.app"),
+    metadataBase: new URL(BASE_URL),
+    alternates: {
+      languages,
+    },
     openGraph: {
       type: "website",
       siteName: "Your Rhythm",

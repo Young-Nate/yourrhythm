@@ -42,7 +42,9 @@ export function middleware(request: NextRequest) {
   // Check if pathname already has a locale prefix
   const pathLocale = pathname.split("/")[1];
   if (isValidLocale(pathLocale)) {
-    return NextResponse.next();
+    const response = NextResponse.next();
+    response.headers.set("x-pathname", pathname);
+    return response;
   }
 
   // Redirect to locale-prefixed URL
