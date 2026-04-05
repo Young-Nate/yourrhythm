@@ -34,7 +34,7 @@ export function Navbar({ locale, t }: NavbarProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <Link href={`/${locale}`} className="flex items-center gap-2.5">
           <HeartLogo className="w-9 h-9" />
-          <span className="font-bold text-lg tracking-tight">Your Rhythm<span className="font-normal text-muted-foreground"> : Period Tracker</span></span>
+          <span className="font-bold text-lg tracking-tight">Your Rhythm</span>
         </Link>
         <div className="hidden md:flex items-center gap-8">
           <button
@@ -78,7 +78,7 @@ export function BlogNav({ locale, t, activePage }: BlogNavProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <Link href={`/${locale}`} className="flex items-center gap-2.5">
           <HeartLogo className="w-9 h-9" />
-          <span className="font-bold text-lg tracking-tight">Your Rhythm<span className="font-normal text-muted-foreground"> : Period Tracker</span></span>
+          <span className="font-bold text-lg tracking-tight">Your Rhythm</span>
         </Link>
         <div className="flex items-center gap-6">
           <Link
