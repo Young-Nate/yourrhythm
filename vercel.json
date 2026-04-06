@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "yourrhythm.vercel.app"
+        }
+      ],
+      "destination": "https://yourrhythm.app/$1",
+      "permanent": true
+    }
+  ]
+}
