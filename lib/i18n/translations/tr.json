@@ -10,8 +10,8 @@
     "title1": "Döngün,",
     "title2": "Ritmin",
     "subtitle": "Yapay zeka destekli tahminlerle adetin takip et, ruh halini ve belirtilerini kaydet, kişiselleştirilmiş döngü içgörüleri al — hepsi tek bir güzel uygulamada.",
-    "appStore": "iOS'ta İndir",
-    "googlePlay": "Android'de mevcut",
+    "appStore": "App Store (yakında)",
+    "googlePlay": "Android (yakında)",
     "rating": "App Store'da 4,9 puan"
   },
   "features": {
@@ -101,8 +101,8 @@
   "cta": {
     "title": "Bugün Döngünü Takip Etmeye Başla",
     "subtitle": "Your Rhythm ile bedenlerini daha iyi anlayan binlerce kadına katıl. İndirmesi ücretsiz, hesap gerekmez.",
-    "appStore": "iOS'ta İndir",
-    "googlePlay": "Android'de mevcut"
+    "appStore": "App Store (yakında)",
+    "googlePlay": "Android (yakında)"
   },
   "footer": {
     "desc": "Yapay zeka destekli döngü tahminleri, ruh hali kaydı ve kişiselleştirilmiş içgörüler içeren akıllı adet takipçisi.",
@@ -136,5 +136,17 @@
     "viewAllArticles": "Tüm makaleleri gör",
     "tryCta": "Your Rhythm'ı Ücretsiz Dene",
     "ctaDesc": "Döngünü takip et, ruh halini kaydet ve kişiselleştirilmiş içgörüler al. iOS ve Android'de mevcut."
+  },
+  "waitlist": {
+    "title": "İlk öğrenen siz olun",
+    "subtitle": "Uygulama yakında geliyor. Bilgilerinizi bırakın, hazır olur olmaz sizi haberdar edelim.",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "age": "Yaş",
+    "email": "E-posta adresi",
+    "submit": "Beni bilgilendir",
+    "success": "Listedesiniz!",
+    "successSub": "Uygulama hazır olduğunda size e-posta göndereceğiz.",
+    "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
   }
 }

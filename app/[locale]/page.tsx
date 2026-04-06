@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { WaitlistForm } from "@/components/waitlist-form";
 import { db } from "@/lib/db";
 import { blogPosts } from "@/lib/schema";
 import { desc } from "drizzle-orm";
@@ -442,6 +443,15 @@ export default async function Home({
                 {t.cta.googlePlay}
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Waitlist */}
+      <section className="py-16 bg-[hsl(20,35%,96%)]">
+        <div className="max-w-md mx-auto px-4 sm:px-6">
+          <div className="rounded-2xl border border-border/60 bg-card p-8 shadow-sm">
+            <WaitlistForm t={t.waitlist} site="yourrhythm" />
           </div>
         </div>
       </section>

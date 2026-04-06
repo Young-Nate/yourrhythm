@@ -10,8 +10,8 @@
     "title1": "Siklusmu,",
     "title2": "Ritmusmu",
     "subtitle": "Lacak menstruasimu dengan prediksi bertenaga AI, catat suasana hati dan gejalamu, dan dapatkan wawasan siklus yang dipersonalisasi — semua dalam satu aplikasi yang indah.",
-    "appStore": "Unduh di iOS",
-    "googlePlay": "Tersedia di Android",
+    "appStore": "App Store (segera)",
+    "googlePlay": "Android (segera)",
     "rating": "Rating 4,9 di App Store"
   },
   "features": {
@@ -101,8 +101,8 @@
   "cta": {
     "title": "Mulai Lacak Siklusmu Hari Ini",
     "subtitle": "Bergabunglah dengan ribuan wanita yang memahami tubuh mereka lebih baik dengan Your Rhythm. Gratis diunduh, tidak perlu akun.",
-    "appStore": "Unduh di iOS",
-    "googlePlay": "Tersedia di Android"
+    "appStore": "App Store (segera)",
+    "googlePlay": "Android (segera)"
   },
   "footer": {
     "desc": "Pelacak menstruasi cerdas dengan prediksi siklus bertenaga AI, pencatatan suasana hati, dan wawasan terpersonalisasi.",
@@ -136,5 +136,17 @@
     "viewAllArticles": "Lihat semua artikel",
     "tryCta": "Coba Your Rhythm Gratis",
     "ctaDesc": "Lacak siklusmu, catat suasana hatimu, dan dapatkan wawasan terpersonalisasi. Tersedia di iOS dan Android."
+  },
+  "waitlist": {
+    "title": "Jadilah yang pertama tahu",
+    "subtitle": "Aplikasi segera hadir. Tinggalkan info Anda dan kami akan memberi tahu Anda begitu tersedia.",
+    "firstName": "Nama depan",
+    "lastName": "Nama belakang",
+    "age": "Usia",
+    "email": "Alamat email",
+    "submit": "Beri tahu saya",
+    "success": "Anda ada di daftar!",
+    "successSub": "Kami akan mengirim email saat aplikasi siap.",
+    "error": "Terjadi kesalahan. Silakan coba lagi."
   }
 }

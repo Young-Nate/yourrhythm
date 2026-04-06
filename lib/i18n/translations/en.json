@@ -10,8 +10,8 @@
     "title1": "Your Cycle,",
     "title2": "Your Rhythm",
     "subtitle": "Track your period with AI-powered predictions, log your mood and symptoms, and get personalized cycle insights — all in one beautiful app.",
-    "appStore": "Download on iOS",
-    "googlePlay": "Get it on Android",
+    "appStore": "App Store (soon)",
+    "googlePlay": "Android (soon)",
     "rating": "4.9 rating on App Store"
   },
   "features": {
@@ -101,8 +101,8 @@
   "cta": {
     "title": "Start Tracking Your Cycle Today",
     "subtitle": "Join thousands of women who understand their bodies better with Your Rhythm. Free to download, no account required.",
-    "appStore": "Download on iOS",
-    "googlePlay": "Get it on Android"
+    "appStore": "App Store (soon)",
+    "googlePlay": "Android (soon)"
   },
   "footer": {
     "desc": "Smart period tracker with AI-powered cycle predictions, mood logging, and personalized insights.",
@@ -136,5 +136,17 @@
     "viewAllArticles": "View all articles",
     "tryCta": "Try Your Rhythm Free",
     "ctaDesc": "Track your cycle, log your mood, and get personalized insights. Available on iOS and Android."
+  },
+  "waitlist": {
+    "title": "Be First to Know",
+    "subtitle": "The app is coming soon. Leave your info and we'll notify you the moment it's available.",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "age": "Age",
+    "email": "Email address",
+    "submit": "Notify Me",
+    "success": "You're on the list!",
+    "successSub": "We'll email you the moment the app is ready.",
+    "error": "Something went wrong. Please try again."
   }
 }

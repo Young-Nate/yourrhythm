@@ -10,8 +10,8 @@
     "title1": "Dein Zyklus,",
     "title2": "dein Rhythmus",
     "subtitle": "Verfolge deine Periode mit KI-gestützten Vorhersagen, notiere deine Stimmung und Symptome und erhalte personalisierte Zyklus-Einblicke — alles in einer wunderschönen App.",
-    "appStore": "Für iOS laden",
-    "googlePlay": "Verfügbar für Android",
+    "appStore": "App Store (demnächst)",
+    "googlePlay": "Android (demnächst)",
     "rating": "4,9 Sterne im App Store"
   },
   "features": {
@@ -101,8 +101,8 @@
   "cta": {
     "title": "Beginne heute, deinen Zyklus zu verfolgen",
     "subtitle": "Schließe dich Tausenden von Frauen an, die ihren Körper mit Your Rhythm besser verstehen. Kostenlos herunterladen, kein Konto erforderlich.",
-    "appStore": "Für iOS laden",
-    "googlePlay": "Verfügbar für Android"
+    "appStore": "App Store (demnächst)",
+    "googlePlay": "Android (demnächst)"
   },
   "footer": {
     "desc": "Intelligenter Periodentracker mit KI-gestützten Zyklusvorhersagen, Stimmungsprotokoll und personalisierten Einblicken.",
@@ -136,5 +136,17 @@
     "viewAllArticles": "Alle Artikel ansehen",
     "tryCta": "Your Rhythm kostenlos ausprobieren",
     "ctaDesc": "Verfolge deinen Zyklus, notiere deine Stimmung und erhalte personalisierte Einblicke. Verfügbar für iOS und Android."
+  },
+  "waitlist": {
+    "title": "Als Erster informiert sein",
+    "subtitle": "Die App kommt bald. Hinterlasse deine Daten und wir benachrichtigen dich, sobald sie verfügbar ist.",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "age": "Alter",
+    "email": "E-Mail-Adresse",
+    "submit": "Benachrichtige mich",
+    "success": "Du stehst auf der Liste!",
+    "successSub": "Wir schicken dir eine E-Mail, sobald die App fertig ist.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
   }
 }

@@ -10,8 +10,8 @@
     "title1": "Il tuo ciclo,",
     "title2": "il tuo ritmo",
     "subtitle": "Tieni traccia del tuo ciclo con previsioni basate sull'IA, registra il tuo umore e i sintomi, e ottieni insight personalizzati — tutto in un'app meravigliosa.",
-    "appStore": "Scarica su iOS",
-    "googlePlay": "Disponibile su Android",
+    "appStore": "App Store (presto)",
+    "googlePlay": "Android (presto)",
     "rating": "4,9 stelle sull'App Store"
   },
   "features": {
@@ -101,8 +101,8 @@
   "cta": {
     "title": "Inizia a monitorare il tuo ciclo oggi",
     "subtitle": "Unisciti alle migliaia di donne che capiscono meglio il proprio corpo con Your Rhythm. Gratis da scaricare, nessun account richiesto.",
-    "appStore": "Scarica su iOS",
-    "googlePlay": "Disponibile su Android"
+    "appStore": "App Store (presto)",
+    "googlePlay": "Android (presto)"
   },
   "footer": {
     "desc": "Tracker mestruale intelligente con previsioni del ciclo basate sull'IA, registro dell'umore e insight personalizzati.",
@@ -136,5 +136,17 @@
     "viewAllArticles": "Vedi tutti gli articoli",
     "tryCta": "Prova Your Rhythm gratis",
     "ctaDesc": "Monitora il tuo ciclo, registra il tuo umore e ottieni insight personalizzati. Disponibile su iOS e Android."
+  },
+  "waitlist": {
+    "title": "Sii il primo a saperlo",
+    "subtitle": "L'app sta arrivando. Lascia i tuoi dati e ti avviseremo non appena sarà disponibile.",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "age": "Età",
+    "email": "Indirizzo e-mail",
+    "submit": "Avvisami",
+    "success": "Sei nella lista!",
+    "successSub": "Ti invieremo un'e-mail non appena l'app sarà pronta.",
+    "error": "Qualcosa è andato storto. Riprova."
   }
 }

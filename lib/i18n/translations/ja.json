@@ -10,8 +10,8 @@
     "title1": "あなたのサイクル、",
     "title2": "あなたのリズム",
     "subtitle": "AIによる予測で生理を追跡し、気分や症状を記録して、パーソナライズされた周期インサイトを取得 — すべてが一つの美しいアプリに。",
-    "appStore": "iOS でダウンロード",
-    "googlePlay": "Android 版を入手",
+    "appStore": "App Store（近日公開）",
+    "googlePlay": "Android（近日公開）",
     "rating": "App Storeで4.9の評価"
   },
   "features": {
@@ -101,8 +101,8 @@
   "cta": {
     "title": "今日からサイクルトラッキングを始めよう",
     "subtitle": "Your Rhythmで体をより深く理解する何千人もの女性に加わりましょう。無料ダウンロード、アカウント不要。",
-    "appStore": "iOS でダウンロード",
-    "googlePlay": "Android 版を入手"
+    "appStore": "App Store（近日公開）",
+    "googlePlay": "Android（近日公開）"
   },
   "footer": {
     "desc": "AI搭載の周期予測、気分ログ、パーソナライズされたインサイトを提供するスマート生理トラッカー。",
@@ -136,5 +136,17 @@
     "viewAllArticles": "すべての記事を見る",
     "tryCta": "Your Rhythmを無料で試す",
     "ctaDesc": "周期を追跡し、気分を記録し、パーソナライズされたインサイトを取得。iOS・Android対応。"
+  },
+  "waitlist": {
+    "title": "いち早くお知らせ",
+    "subtitle": "アプリは近日公開予定です。情報を入力していただければ、準備ができ次第お知らせします。",
+    "firstName": "名前",
+    "lastName": "苗字",
+    "age": "年齢",
+    "email": "メールアドレス",
+    "submit": "通知を受け取る",
+    "success": "リストに登録されました！",
+    "successSub": "アプリの準備ができたらメールでお知らせします。",
+    "error": "エラーが発生しました。もう一度お試しください。"
   }
 }

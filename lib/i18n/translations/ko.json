@@ -10,8 +10,8 @@
     "title1": "나의 주기,",
     "title2": "나의 리듬",
     "subtitle": "AI 기반 예측으로 생리를 추적하고, 기분과 증상을 기록하며, 개인 맞춤 주기 인사이트를 얻으세요 — 하나의 아름다운 앱에서.",
-    "appStore": "iOS에서 다운로드",
-    "googlePlay": "Android에서 다운로드",
+    "appStore": "App Store (출시 예정)",
+    "googlePlay": "Android (출시 예정)",
     "rating": "App Store 4.9점 평점"
   },
   "features": {
@@ -101,8 +101,8 @@
   "cta": {
     "title": "오늘 바로 주기 추적을 시작하세요",
     "subtitle": "Your Rhythm으로 자신의 몸을 더 잘 이해하는 수천 명의 여성과 함께하세요. 무료 다운로드, 계정 불필요.",
-    "appStore": "iOS에서 다운로드",
-    "googlePlay": "Android에서 다운로드"
+    "appStore": "App Store (출시 예정)",
+    "googlePlay": "Android (출시 예정)"
   },
   "footer": {
     "desc": "AI 기반 주기 예측, 기분 로그, 개인화된 인사이트를 제공하는 스마트 생리 추적기.",
@@ -136,5 +136,17 @@
     "viewAllArticles": "전체 아티클 보기",
     "tryCta": "Your Rhythm 무료로 사용해보기",
     "ctaDesc": "주기를 추적하고, 기분을 기록하고, 개인화된 인사이트를 받으세요. iOS 및 Android 지원."
+  },
+  "waitlist": {
+    "title": "가장 먼저 알아보세요",
+    "subtitle": "앱이 곧 출시됩니다. 정보를 남겨주시면 준비되는 즉시 알려드리겠습니다.",
+    "firstName": "이름",
+    "lastName": "성",
+    "age": "나이",
+    "email": "이메일 주소",
+    "submit": "알림 받기",
+    "success": "목록에 등록되었습니다!",
+    "successSub": "앱이 준비되면 바로 이메일을 보내드리겠습니다.",
+    "error": "문제가 발생했습니다. 다시 시도해 주세요."
   }
 }

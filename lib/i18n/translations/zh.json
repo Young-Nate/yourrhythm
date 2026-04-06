@@ -10,8 +10,8 @@
     "title1": "掌握你的周期，",
     "title2": "找到你的节奏",
     "subtitle": "借助 AI 预测追踪月经，记录情绪与症状，获取个性化周期洞察——一切尽在一款精美应用中。",
-    "appStore": "iOS 下载",
-    "googlePlay": "Android 版下载",
+    "appStore": "App Store（即将上线）",
+    "googlePlay": "Android（即将上线）",
     "rating": "App Store 4.9 星好评"
   },
   "features": {
@@ -101,8 +101,8 @@
   "cta": {
     "title": "今天就开始追踪你的周期",
     "subtitle": "加入数千名通过 Your Rhythm 更了解自己身体的女性。免费下载，无需注册账户。",
-    "appStore": "iOS 下载",
-    "googlePlay": "Android 版下载"
+    "appStore": "App Store（即将上线）",
+    "googlePlay": "Android（即将上线）"
   },
   "footer": {
     "desc": "智能月经追踪器，提供 AI 周期预测、情绪记录和个性化洞察。",
@@ -136,5 +136,17 @@
     "viewAllArticles": "查看全部文章",
     "tryCta": "免费体验 Your Rhythm",
     "ctaDesc": "追踪周期、记录情绪、获取个性化洞察。iOS 和 Android 均可使用。"
+  },
+  "waitlist": {
+    "title": "抢先获知",
+    "subtitle": "应用即将上线。留下您的信息，一旦可用我们将立即通知您。",
+    "firstName": "名",
+    "lastName": "姓",
+    "age": "年龄",
+    "email": "电子邮件地址",
+    "submit": "通知我",
+    "success": "您已加入等待列表！",
+    "successSub": "应用准备好后我们会立即发邮件通知您。",
+    "error": "出了些问题，请再试一次。"
   }
 }
