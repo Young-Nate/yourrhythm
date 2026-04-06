@@ -22,21 +22,23 @@ export function WaitlistForm({ t, site }: WaitlistFormProps) {
   const [form, setForm] = useState({ firstName: "", lastName: "", age: "", email: "" });
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
+  const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby2z2aHcvpvu8PN9s2lU1rM6H6M5PgqoBgwBbjVzTSqmvs-zx6d_mS2odOdnb9Gymj6qw/exec";
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("loading");
     try {
-      const res = await fetch("/api/waitlist", {
+      // Use no-cors mode — Apps Script doesn't return CORS headers
+      // We send the data and assume success (common pattern for Apps Script)
+      await fetch(APPS_SCRIPT_URL, {
         method: "POST",
+        mode: "no-cors",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...form, site }),
       });
-      if (res.ok) {
-        setStatus("success");
-        setForm({ firstName: "", lastName: "", age: "", email: "" });
-      } else {
-        setStatus("error");
-      }
+      // With no-cors we can't read the response, assume success
+      setStatus("success");
+      setForm({ firstName: "", lastName: "", age: "", email: "" });
     } catch {
       setStatus("error");
     }
