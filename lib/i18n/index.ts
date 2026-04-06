@@ -79,6 +79,18 @@ export type Translations = {
     tryCta: string;
     ctaDesc: string;
   };
+  waitlist: {
+    title: string;
+    subtitle: string;
+    firstName: string;
+    lastName: string;
+    age: string;
+    email: string;
+    submit: string;
+    success: string;
+    successSub: string;
+    error: string;
+  };
 };
 
 export async function getTranslations(locale: Locale): Promise<Translations> {
