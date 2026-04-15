@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { isValidLocale, isRTL, locales, type Locale } from "@/lib/i18n/config";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 
 const BASE_URL = "https://yourrhythm.app";
 
@@ -88,7 +89,10 @@ export default function LocaleLayout({
           href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
