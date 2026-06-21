@@ -79,20 +79,20 @@ export function Footer({ locale, t, blogT }: FooterProps) {
                 </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href={`/${locale}/contact`}
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {t.helpCenter}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href={`/${locale}/contact`}
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {t.contact}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
